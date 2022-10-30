@@ -1,0 +1,114 @@
+Event	ID	Name			Wwise Object Path	Notes
+	86799940	sfx_axe_swing			\Default Work Unit\SFX\Axe\sfx_axe_swing	
+	95417095	sfx_reg_wheels_stop			\Default Work Unit\SFX\Wheels\sfx_reg_wheels_stop	
+	349001256	sfx_axe_tension			\Default Work Unit\SFX\Axe\sfx_axe_tension	
+	399912981	sfx_mech_steps_stop			\Default Work Unit\SFX\Wheels\sfx_mech_steps_stop	
+	434832063	sfx_extend_release			\Default Work Unit\SFX\Extend\sfx_extend_release	
+	451119652	sfx_rotate			\Default Work Unit\SFX\Rotate\sfx_rotate	
+	466474101	sfx_horn_fire			\Default Work Unit\SFX\Horn\sfx_horn_fire	
+	468579442	sfx_oil_stop			\Default Work Unit\SFX\Oil\sfx_oil_stop	
+	539556352	sfx_drill_material			\Default Work Unit\SFX\Drill\sfx_drill_material	
+	556233365	sfx_industrial_light			\Default Work Unit\SFX\UI\sfx_industrial_light	
+	557852407	sfx_static			\Default Work Unit\SFX\UI\sfx_static	
+	697871045	sfx_bubble_creation			\Default Work Unit\SFX\Bubbles\sfx_bubble_creation	
+	769125486	sfx_rotate_release			\Default Work Unit\SFX\Rotate\sfx_rotate_release	
+	776903669	sfx_extend			\Default Work Unit\SFX\Extend\sfx_extend	
+	822486414	sfx_axe_tension_resume			\Default Work Unit\SFX\Axe\sfx_axe_tension_resume	
+	1052484494	sfx_hand_crush			\Default Work Unit\SFX\UI\sfx_hand_crush	
+	1060432711	sfx_turn_switch			\Default Work Unit\SFX\UI\sfx_turn_switch	
+	1075978878	sfx_bomber_explode			\Default Work Unit\SFX\Bomber\sfx_bomber_explode	
+	1081195490	sfx_lturret_pause			\Default Work Unit\SFX\LaserTurret\sfx_lturret_pause	
+	1505854425	sfx_horn_stinger			\Default Work Unit\SFX\Horn\sfx_horn_stinger	
+	1591654952	sfx_reg_wheels			\Default Work Unit\SFX\Wheels\sfx_reg_wheels	
+	1799921249	sfx_horn_charge			\Default Work Unit\SFX\Horn\sfx_horn_charge	
+	1830762728	sfx_horn_resume			\Default Work Unit\SFX\Horn\sfx_horn_resume	
+	1876875269	sfx_select_item			\Default Work Unit\SFX\UI\sfx_select_item	
+	1891877807	sfx_fan_stop			\Default Work Unit\SFX\Fan\sfx_fan_stop	
+	2005094599	sfx_bouncy_wheels_stop			\Default Work Unit\SFX\Wheels\sfx_bouncy_wheels_stop	
+	2166300584	sfx_drill			\Default Work Unit\SFX\Drill\sfx_drill	
+	2239184004	sfx_bomber			\Default Work Unit\SFX\Bomber\sfx_bomber	
+	2304725039	sfx_drill_material_stop			\Default Work Unit\SFX\Drill\sfx_drill_material_stop	
+	2344274761	sfx_horn_pause			\Default Work Unit\SFX\Horn\sfx_horn_pause	
+	2385862058	sfx_drill_release			\Default Work Unit\SFX\Drill\sfx_drill_release	
+	2474675519	sfx_axe_tension_pause			\Default Work Unit\SFX\Axe\sfx_axe_tension_pause	
+	2528838971	sfx_fan_spin			\Default Work Unit\SFX\Fan\sfx_fan_spin	
+	2537499298	sfx_broken_part			\Default Work Unit\SFX\sfx_broken_part	
+	2771076363	sfx_collision			\Default Work Unit\SFX\sfx_collision	
+	2885047016	sfx_bouncy_wheels			\Default Work Unit\SFX\Wheels\sfx_bouncy_wheels	
+	2906098724	sfx_menu_move			\Default Work Unit\SFX\UI\sfx_menu_move	
+	2932508044	sfx_plugin			\Default Work Unit\SFX\UI\sfx_plugin	
+	3036093774	sfx_shoot			\Default Work Unit\SFX\sfx_shoot	
+	3188064320	sfx_lturret_fire			\Default Work Unit\SFX\LaserTurret\sfx_lturret_fire	
+	3293812029	sfx_hit_confirm			\Default Work Unit\SFX\sfx_hit_confirm	
+	3474264902	sfx_mech_steps			\Default Work Unit\SFX\Wheels\sfx_mech_steps	
+	3681540524	sfx_horn_stinger_stop			\Default Work Unit\SFX\Horn\sfx_horn_stinger_stop	
+	3699524474	sfx_ready			\Default Work Unit\SFX\UI\sfx_ready	
+	3727808947	sfx_bomber_pause			\Default Work Unit\SFX\Bomber\sfx_bomber_pause	
+	3750475032	sfx_lturret_charge			\Default Work Unit\SFX\LaserTurret\sfx_lturret_charge	
+	3861937461	sfx_lturret_resume			\Default Work Unit\SFX\LaserTurret\sfx_lturret_resume	
+	4059578167	sfx_oil_spew			\Default Work Unit\SFX\Oil\sfx_oil_spew	
+	4176439487	sfx_bubble_pop			\Default Work Unit\SFX\Bubbles\sfx_bubble_pop	
+	4226042618	sfx_bomber_resume			\Default Work Unit\SFX\Bomber\sfx_bomber_resume	
+	4280600473	sfx_paint_explode			\Default Work Unit\SFX\sfx_paint_explode	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	177011	sfx_mech_steps_1	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_mech_steps_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_mech_steps\sfx_mech_steps_1		216284
+	12786970	sfx_pop_2	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_pop_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_pop\sfx_pop_2		400464
+	58051110	sfx_mech_steps_2	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_mech_steps_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_mech_steps\sfx_mech_steps_2		200264
+	84577172	collision2	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_collision2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_collision\collision2		192064
+	96593007	sfx_tv_static	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_tv_static_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_tv_static		312064
+	101069602	sfx_axe_tension	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_axe_tension_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_axe_tension		945008
+	117373756	sfx_bubble_creation_1	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_bubble_creation_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_bubble_creation\sfx_bubble_creation_1		400464
+	146771120	sfx_bubble_creation_4	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_bubble_creation_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_bubble_creation\sfx_bubble_creation_4		400464
+	160398923	sfx_hit_confirm	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_hit_confirm_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_hit_confirm		384064
+	168104458	sfx_axe_swing	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_axe_swing_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_axe_swing		400464
+	176837875	sfx_bubble_creation_3	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_bubble_creation_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_bubble_creation\sfx_bubble_creation_3		400464
+	188405462	sfx_extend_end	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_extend_end_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_extend_end		192064
+	225453572	sfx_pop_1	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_pop_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_pop\sfx_pop_1		400464
+	241876279	sfx_lturret_fire_3	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_lturret_fire_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_lturret_fire\sfx_lturret_fire_3		160228
+	244654456	sfx_drill	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\drill_loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_drill		81144
+	281577738	sfx_paint_explode	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_paint_explode_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_paint_explode		240064
+	282717302	sfx_hand_crush	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_hand_crush_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_hand_crush		384064
+	298304948	sfx_bomber_explode_2	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_bomber_explode_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_bomber_explode\sfx_bomber_explode_2		344408
+	306506692	sfx_lturret_fire_1	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_lturret_fire_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_lturret_fire\sfx_lturret_fire_1		104168
+	314424090	sfx_turn_switch	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_turn_switch_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_turn_switch		288064
+	329681200	sfx_pop_3	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_pop_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_pop\sfx_pop_3		400464
+	430818661	sfx_mech_steps_3	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_mech_steps_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_mech_steps\sfx_mech_steps_3		200264
+	432886284	sfx_shoot	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_shoot_25782593.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_shoot		660360
+	442595853	sfx_rotate_release	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_rotate_release_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_rotate\sfx_rotate_release		234760
+	446150732	sfx_extend_loop	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_extend_loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_extend_loop		1248064
+	456506402	sfx_pop_4	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_pop_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_pop\sfx_pop_4		400464
+	472154622	sfx_pop_6	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_pop_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_pop\sfx_pop_6		400464
+	482178418	collision3	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_collision3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_collision\collision3		192064
+	514165751	sfx_broken_part	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_broken_part_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_broken_part		384064
+	521538209	sfx_pop_8	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_pop_8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_pop\sfx_pop_8		400464
+	539506259	sfx_bomber_explode_1	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_bomber_explode_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_bomber_explode\sfx_bomber_explode_1		344408
+	557313883	sfx_rotate_start	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\rotate_start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_rotate\sfx_rotate_start		184248
+	559579961	sfx_horn_fire	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_horn_fire_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_horn_fire		400464
+	580475941	sfx_industrial_light	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_industrial_light_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_industrial_light		192064
+	602452521	sfx_horn_charge	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_horn_charge_0925ED7A.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_horn_charge		532480
+	608647929	sfx_horn_stinger	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_horn_stinger_9D0D5BAB.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_horn_stinger		1401528
+	639034270	sfx_bomber_explode_3	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_bomber_explode_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_bomber_explode\sfx_bomber_explode_3		344408
+	651549137	sfx_drill_start	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\drill_start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_drill_start		96160
+	667828398	sfx_drill_end	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\drill_end_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_drill_end		184248
+	687732987	sfx_mech_steps_4	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_mech_steps_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_mech_steps\sfx_mech_steps_4		200264
+	698147406	sfx_reg_wheels	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_reg_wheels_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_reg_wheels		672064
+	718739917	sfx_lturret_charge	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_lturret_charge_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_lturret_charge		494540
+	727168753	collision4	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_collision4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_collision\collision4		192064
+	731296559	sfx_plugin	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_plug_in_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_plugin		288064
+	778506908	collision1	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_collision_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_collision\collision1		384064
+	784784620	sfx_oil_spew	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_oil_spew_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_oil_spew		1056064
+	814335599	sfx_menu_move	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_menu_move_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_menu_move		48064
+	828656284	sfx_bomberCharge	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_bomberCharge_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_bomberCharge		712776
+	858135003	sfx_pop_5	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_pop_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_pop\sfx_pop_5		400464
+	876189693	sfx_rotate	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_rotate_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_rotate\sfx_rotate		248488
+	886793565	sfx_lturret_fire_2	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_lturret_fire_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_lturret_fire\sfx_lturret_fire_2		160228
+	889083020	sfx_extend_start	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_extend_start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_extend_start		192064
+	910770784	sfx_select_item	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_select_item_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_select_item		96064
+	924451539	sfx_drill_material	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\drilling_metal_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_drill_material		594096
+	925661973	sfx_ready	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_ready_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_ready		192064
+	926284236	sfx_pop_7	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_pop_7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_pop\sfx_pop_7		400464
+	988493639	sfx_fan_spin	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_fan_whirring_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_fan_spin		576064
+	1047258921	sfx_bouncy_wheels	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_bouncy_wheels_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_bouncy_wheels		672064
+	1056215367	sfx_bubble_creation_2	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\sfx_bubble_creation_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_bubble_creation\sfx_bubble_creation_2		400464
+

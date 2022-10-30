@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2127258973	mx_title			\Default Work Unit\MX\mx_title	
+	3867905721	mx_stop_all			\Default Work Unit\MX\mx_stop_all	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	116066502	Title_Loop_Master_140bpm	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\Title_Loop_Master_140bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\mx_title_screen_playlist\Title_Loop_Master_140bpm\Title_Loop_Master_140bpm		4196716
+

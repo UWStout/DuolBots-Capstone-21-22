@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - NavigationSystem
+  - CMCamera
+  - HeroActionBar
+  - HeroEmoteBar
+  - GameCanvas
+  - PartyHUD
+  - GameNetPortal
+  - MusicPlayer
+  - Robot
+  - Part
+  - PartDamageable
+  - PlayerCamera
+  - Ground
+  - PlayerInput
+  - Outline
+  - Projectile
+  - PartImageUI
+  - IgnoreDamagingCollider
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - PCs
+  - Water
+  - UI
+  - NPCs
+  - Projectiles
+  - Ground
+  - HeavyObject
+  - Triggers
+  - Debris
+  - GroundOnlyCollision
+  - CameraA
+  - CameraB
+  - CameraC
+  - CameraD
+  - Metaballs
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

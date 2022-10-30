@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 2bf1855e558d92441a5d63b7b25e6f97
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - We are Depraved
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 41517b3ddcc702449ac39ae2fac16428, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

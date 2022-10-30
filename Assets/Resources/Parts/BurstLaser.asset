@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6cfa6717e2204f9660786c2d1830e, type: 3}
+  m_Name: BurstLaser
+  m_EditorClassIdentifier: 
+  m_partName: BurstLaser
+  m_partType: 2
+  m_partID: {fileID: 11400000, guid: 824394dbcbf1c7144bdf78e60a490bf8, type: 2}
+  m_weight: 2
+  m_health: 4
+  m_movementSpeed: 0
+  m_modelPrefab: {fileID: 8786508797947046591, guid: 57cf4ef7c0e0cb048892ea3fdbeca273, type: 3}
+  m_battleLocalPrefab: {fileID: 6764553628359290230, guid: df8481b2a3cb7124e9754f33cf268fa8, type: 3}
+  m_battleNetworkPrefab: {fileID: 1731315071348954878, guid: 5f2e4197255e0c0479f99380208a194d, type: 3}
+  m_buildUIPrefab: {fileID: 0}
+  m_buildUIPreviewPrefab: {fileID: 0}
+  m_actionList:
+  - m_action: Rotate
+    m_actionType: 0
+    m_IconType: 1
+    m_hasCooldown: 0
+  - m_action: Raise
+    m_actionType: 0
+    m_IconType: 2
+    m_hasCooldown: 0
+  - m_action: Charge
+    m_actionType: 0
+    m_IconType: 0
+    m_hasCooldown: 1
+  m_partUIData:
+    m_unlockedSprite: {fileID: 2800000, guid: 43a69c8e394042f468406123db19cb3f, type: 3}
+    m_lockedSprite: {fileID: 0}
+    m_animationClip: {fileID: 0}

@@ -1,0 +1,576 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb3c3f677f95ecf41a144baab93449b9, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 3e3154bd4aedca49baa6f96c45ce7615
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 3e3154bd4aedca49baa6f96c45ce7615
+    GuidInternal: 
+    m_lastTime: -8585510605617681687
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 37661460883b454cb8e00bbbf85d6eb2
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 37661460883b454cb8e00bbbf85d6eb2
+    GuidInternal: 
+    m_lastTime: -8585510605696492070
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 37661460883b454cb8e00bbbf85d6eb2
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 29a63b2c04552e4db71255c57a2a4517
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 29a63b2c04552e4db71255c57a2a4517
+    GuidInternal: 
+    m_lastTime: -8585510605618301692
+    List:
+    - name: DuolBotsMain
+      guid: 48ba465f2fb8ca4bb5e65f9171641722
+      id: 899052136
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 29a63b2c04552e4db71255c57a2a4517
+      - ElementName: DuolBotsMain
+        ObjectType: 7
+        guid: 48ba465f2fb8ca4bb5e65f9171641722
+      Path: SoundBanks\Default Work Unit\DuolBotsMain
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 59516388b322254893638f4395be2564
+    ParentPath: Events\Default Work Unit
+    guid: 59516388b322254893638f4395be2564
+    GuidInternal: 
+    m_lastTime: -8585510605750372088
+    List:
+    - name: Bomber
+      guid: 9a239238236c6d45838d3720c268cb68
+      id: 3090835844
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59516388b322254893638f4395be2564
+      - ElementName: SFX
+        ObjectType: 4
+        guid: b3a4881ad24ea947bd2bbb26b4d1be70
+      - ElementName: Bomber
+        ObjectType: 4
+        guid: 9a239238236c6d45838d3720c268cb68
+      Path: Events\Default Work Unit\SFX\Bomber
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Drill
+      guid: 4a73a0b417e4da419580bcabc1a2a0d6
+      id: 2168413864
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59516388b322254893638f4395be2564
+      - ElementName: SFX
+        ObjectType: 4
+        guid: b3a4881ad24ea947bd2bbb26b4d1be70
+      - ElementName: Drill
+        ObjectType: 4
+        guid: 4a73a0b417e4da419580bcabc1a2a0d6
+      Path: Events\Default Work Unit\SFX\Drill
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Horn
+      guid: 1f007ffc5cbf194ea48e5048ed96a46c
+      id: 3600847130
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59516388b322254893638f4395be2564
+      - ElementName: SFX
+        ObjectType: 4
+        guid: b3a4881ad24ea947bd2bbb26b4d1be70
+      - ElementName: Horn
+        ObjectType: 4
+        guid: 1f007ffc5cbf194ea48e5048ed96a46c
+      Path: Events\Default Work Unit\SFX\Horn
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Rotate
+      guid: 5cb56e7595c4ca48a81f7c37fffa3ef6
+      id: 1302771492
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59516388b322254893638f4395be2564
+      - ElementName: SFX
+        ObjectType: 4
+        guid: b3a4881ad24ea947bd2bbb26b4d1be70
+      - ElementName: Rotate
+        ObjectType: 4
+        guid: 5cb56e7595c4ca48a81f7c37fffa3ef6
+      Path: Events\Default Work Unit\SFX\Rotate
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SFX
+      guid: b3a4881ad24ea947bd2bbb26b4d1be70
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59516388b322254893638f4395be2564
+      - ElementName: SFX
+        ObjectType: 4
+        guid: b3a4881ad24ea947bd2bbb26b4d1be70
+      Path: Events\Default Work Unit\SFX
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: sfx_bomber
+      guid: 5887d9f79b99f04eaae324cf947d6424
+      id: 2239184004
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59516388b322254893638f4395be2564
+      - ElementName: SFX
+        ObjectType: 4
+        guid: b3a4881ad24ea947bd2bbb26b4d1be70
+      - ElementName: Bomber
+        ObjectType: 4
+        guid: 9a239238236c6d45838d3720c268cb68
+      - ElementName: sfx_bomber
+        ObjectType: 3
+        guid: 5887d9f79b99f04eaae324cf947d6424
+      Path: Events\Default Work Unit\SFX\Bomber\sfx_bomber
+      maxAttenuation: 0
+      maxDuration: 3.712042
+      minDuration: 3.712042
+    - name: sfx_bomber_explode
+      guid: c638e5be4e44e94cb03adf95979dbce5
+      id: 1075978878
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59516388b322254893638f4395be2564
+      - ElementName: SFX
+        ObjectType: 4
+        guid: b3a4881ad24ea947bd2bbb26b4d1be70
+      - ElementName: Bomber
+        ObjectType: 4
+        guid: 9a239238236c6d45838d3720c268cb68
+      - ElementName: sfx_bomber_explode
+        ObjectType: 3
+        guid: c638e5be4e44e94cb03adf95979dbce5
+      Path: Events\Default Work Unit\SFX\Bomber\sfx_bomber_explode
+      maxAttenuation: 0
+      maxDuration: 1.793458
+      minDuration: 1.793458
+    - name: sfx_bomber_pause
+      guid: eb4529e9e5b54c48910269707e444323
+      id: 3727808947
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59516388b322254893638f4395be2564
+      - ElementName: SFX
+        ObjectType: 4
+        guid: b3a4881ad24ea947bd2bbb26b4d1be70
+      - ElementName: Bomber
+        ObjectType: 4
+        guid: 9a239238236c6d45838d3720c268cb68
+      - ElementName: sfx_bomber_pause
+        ObjectType: 3
+        guid: eb4529e9e5b54c48910269707e444323
+      Path: Events\Default Work Unit\SFX\Bomber\sfx_bomber_pause
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: sfx_bomber_resume
+      guid: e579fc6ed2ecbe4bb73f85ff693fb447
+      id: 4226042618
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59516388b322254893638f4395be2564
+      - ElementName: SFX
+        ObjectType: 4
+        guid: b3a4881ad24ea947bd2bbb26b4d1be70
+      - ElementName: Bomber
+        ObjectType: 4
+        guid: 9a239238236c6d45838d3720c268cb68
+      - ElementName: sfx_bomber_resume
+        ObjectType: 3
+        guid: e579fc6ed2ecbe4bb73f85ff693fb447
+      Path: Events\Default Work Unit\SFX\Bomber\sfx_bomber_resume
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: sfx_drill
+      guid: 84e074aa256b15439419a18fadda0313
+      id: 2166300584
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59516388b322254893638f4395be2564
+      - ElementName: SFX
+        ObjectType: 4
+        guid: b3a4881ad24ea947bd2bbb26b4d1be70
+      - ElementName: Drill
+        ObjectType: 4
+        guid: 4a73a0b417e4da419580bcabc1a2a0d6
+      - ElementName: sfx_drill
+        ObjectType: 3
+        guid: 84e074aa256b15439419a18fadda0313
+      Path: Events\Default Work Unit\SFX\Drill\sfx_drill
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: sfx_drill_release
+      guid: adc32d8973a8104aadbe2b27f0814b2f
+      id: 2385862058
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59516388b322254893638f4395be2564
+      - ElementName: SFX
+        ObjectType: 4
+        guid: b3a4881ad24ea947bd2bbb26b4d1be70
+      - ElementName: Drill
+        ObjectType: 4
+        guid: 4a73a0b417e4da419580bcabc1a2a0d6
+      - ElementName: sfx_drill_release
+        ObjectType: 3
+        guid: adc32d8973a8104aadbe2b27f0814b2f
+      Path: Events\Default Work Unit\SFX\Drill\sfx_drill_release
+      maxAttenuation: 0
+      maxDuration: 0.959292
+      minDuration: 0.959292
+    - name: sfx_horn_charge
+      guid: 19da3bb12238d048b7a0d2b63d91fedb
+      id: 1799921249
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59516388b322254893638f4395be2564
+      - ElementName: SFX
+        ObjectType: 4
+        guid: b3a4881ad24ea947bd2bbb26b4d1be70
+      - ElementName: Horn
+        ObjectType: 4
+        guid: 1f007ffc5cbf194ea48e5048ed96a46c
+      - ElementName: sfx_horn_charge
+        ObjectType: 3
+        guid: 19da3bb12238d048b7a0d2b63d91fedb
+      Path: Events\Default Work Unit\SFX\Horn\sfx_horn_charge
+      maxAttenuation: 0
+      maxDuration: 7.298958
+      minDuration: 7.298958
+    - name: sfx_horn_fire
+      guid: 643fb4b51468084f8cd5f6924024e7ae
+      id: 466474101
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59516388b322254893638f4395be2564
+      - ElementName: SFX
+        ObjectType: 4
+        guid: b3a4881ad24ea947bd2bbb26b4d1be70
+      - ElementName: Horn
+        ObjectType: 4
+        guid: 1f007ffc5cbf194ea48e5048ed96a46c
+      - ElementName: sfx_horn_fire
+        ObjectType: 3
+        guid: 643fb4b51468084f8cd5f6924024e7ae
+      Path: Events\Default Work Unit\SFX\Horn\sfx_horn_fire
+      maxAttenuation: 0
+      maxDuration: 2.085417
+      minDuration: 2.085417
+    - name: sfx_horn_pause
+      guid: 877f151f92fa5d4daec3bd11143f457e
+      id: 2344274761
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59516388b322254893638f4395be2564
+      - ElementName: SFX
+        ObjectType: 4
+        guid: b3a4881ad24ea947bd2bbb26b4d1be70
+      - ElementName: Horn
+        ObjectType: 4
+        guid: 1f007ffc5cbf194ea48e5048ed96a46c
+      - ElementName: sfx_horn_pause
+        ObjectType: 3
+        guid: 877f151f92fa5d4daec3bd11143f457e
+      Path: Events\Default Work Unit\SFX\Horn\sfx_horn_pause
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: sfx_horn_resume
+      guid: 7945436dfcc8ae4da83473cd38aaa715
+      id: 1830762728
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59516388b322254893638f4395be2564
+      - ElementName: SFX
+        ObjectType: 4
+        guid: b3a4881ad24ea947bd2bbb26b4d1be70
+      - ElementName: Horn
+        ObjectType: 4
+        guid: 1f007ffc5cbf194ea48e5048ed96a46c
+      - ElementName: sfx_horn_resume
+        ObjectType: 3
+        guid: 7945436dfcc8ae4da83473cd38aaa715
+      Path: Events\Default Work Unit\SFX\Horn\sfx_horn_resume
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: sfx_horn_stinger
+      guid: 1f0f002c705a4d46b0434c647971ecc7
+      id: 1505854425
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59516388b322254893638f4395be2564
+      - ElementName: SFX
+        ObjectType: 4
+        guid: b3a4881ad24ea947bd2bbb26b4d1be70
+      - ElementName: Horn
+        ObjectType: 4
+        guid: 1f007ffc5cbf194ea48e5048ed96a46c
+      - ElementName: sfx_horn_stinger
+        ObjectType: 3
+        guid: 1f0f002c705a4d46b0434c647971ecc7
+      Path: Events\Default Work Unit\SFX\Horn\sfx_horn_stinger
+      maxAttenuation: 0
+      maxDuration: 7.298958
+      minDuration: 7.298958
+    - name: sfx_mech_steps
+      guid: 3d7d0bad5053b547b947126945cc3d8c
+      id: 3474264902
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59516388b322254893638f4395be2564
+      - ElementName: SFX
+        ObjectType: 4
+        guid: b3a4881ad24ea947bd2bbb26b4d1be70
+      - ElementName: sfx_mech_steps
+        ObjectType: 3
+        guid: 3d7d0bad5053b547b947126945cc3d8c
+      Path: Events\Default Work Unit\SFX\sfx_mech_steps
+      maxAttenuation: 0
+      maxDuration: 1.126146
+      minDuration: 1.042708
+    - name: sfx_rotate
+      guid: a78840b7be314e4fba1f7c5e8430c1b8
+      id: 451119652
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59516388b322254893638f4395be2564
+      - ElementName: SFX
+        ObjectType: 4
+        guid: b3a4881ad24ea947bd2bbb26b4d1be70
+      - ElementName: Rotate
+        ObjectType: 4
+        guid: 5cb56e7595c4ca48a81f7c37fffa3ef6
+      - ElementName: sfx_rotate
+        ObjectType: 3
+        guid: a78840b7be314e4fba1f7c5e8430c1b8
+      Path: Events\Default Work Unit\SFX\Rotate\sfx_rotate
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: sfx_rotate_release
+      guid: cfab8ab3ae2b5342883b95b6ffb47a9c
+      id: 769125486
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 59516388b322254893638f4395be2564
+      - ElementName: SFX
+        ObjectType: 4
+        guid: b3a4881ad24ea947bd2bbb26b4d1be70
+      - ElementName: Rotate
+        ObjectType: 4
+        guid: 5cb56e7595c4ca48a81f7c37fffa3ef6
+      - ElementName: sfx_rotate_release
+        ObjectType: 3
+        guid: cfab8ab3ae2b5342883b95b6ffb47a9c
+      Path: Events\Default Work Unit\SFX\Rotate\sfx_rotate_release
+      maxAttenuation: 0
+      maxDuration: 1.322375
+      minDuration: 1.322375
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 249a95eb28d14d4fa6980d1e2151c8a2
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 249a95eb28d14d4fa6980d1e2151c8a2
+    GuidInternal: 
+    m_lastTime: -8585510605750302087
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 47fcb4835d7fa844a5d10fd53919d08f
+    ParentPath: States\Default Work Unit
+    guid: 47fcb4835d7fa844a5d10fd53919d08f
+    GuidInternal: 
+    m_lastTime: -8585510605617911691
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 0f838d98b429774bb085e57c734d91f7
+    ParentPath: Switches\Default Work Unit
+    guid: 0f838d98b429774bb085e57c734d91f7
+    GuidInternal: 
+    m_lastTime: -8585510605617841699
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 001f7e526f7b8a48a16b006eebbfcfb8
+    ParentPath: Triggers\Default Work Unit
+    guid: 001f7e526f7b8a48a16b006eebbfcfb8
+    GuidInternal: 
+    m_lastTime: -8585510605617751685
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

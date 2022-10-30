@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6cfa6717e2204f9660786c2d1830e, type: 3}
+  m_Name: HandShield
+  m_EditorClassIdentifier: 
+  m_partName: Crisp High-Five
+  m_partType: 3
+  m_partID: {fileID: 11400000, guid: ab4c6fc77e0dbf54c93ab05383f59b04, type: 2}
+  m_weight: 4
+  m_health: 7
+  m_movementSpeed: 0
+  m_modelPrefab: {fileID: 521122997425689629, guid: 15d5e2ae8ebdb2a49a6f3001e7451038, type: 3}
+  m_battleLocalPrefab: {fileID: 8323463796525429923, guid: eed695332bf75c74cb0f6fa333289f6d, type: 3}
+  m_battleNetworkPrefab: {fileID: 6375559019521678275, guid: 48de97c8b1a91fe4992771ad5a067f92, type: 3}
+  m_buildUIPrefab: {fileID: 0}
+  m_buildUIPreviewPrefab: {fileID: 0}
+  m_actionList:
+  - m_action: Rotate
+    m_actionType: 1
+    m_IconType: 1
+    m_hasCooldown: 0
+  - m_action: Extend
+    m_actionType: 0
+    m_IconType: 0
+    m_hasCooldown: 1
+  m_partUIData:
+    m_unlockedSprite: {fileID: 2800000, guid: 3e4611f64b796bf44b0ee47f112fb6f3, type: 3}
+    m_lockedSprite: {fileID: 2800000, guid: 444e6e33481d1a840912ceb964c9f596, type: 3}
+    m_animationClip: {fileID: 0}

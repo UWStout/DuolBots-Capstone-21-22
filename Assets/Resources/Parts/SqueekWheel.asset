@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6cfa6717e2204f9660786c2d1830e, type: 3}
+  m_Name: SqueekWheel
+  m_EditorClassIdentifier: 
+  m_partName: Rubber Wheels
+  m_partType: 1
+  m_partID: {fileID: 11400000, guid: f9aedb3b383730347a388a216d328d34, type: 2}
+  m_weight: 0
+  m_health: 0
+  m_movementSpeed: 0
+  m_modelPrefab: {fileID: 4606403206799109847, guid: d64044103853fe548a6871e635c31f9c, type: 3}
+  m_battleLocalPrefab: {fileID: 1656946370721942324, guid: 183ecdedf72286b42a900ed860fdb722, type: 3}
+  m_battleNetworkPrefab: {fileID: 2724393125964555969, guid: 480b248721a71a6449f67327d6cb27a9, type: 3}
+  m_buildUIPrefab: {fileID: 7643272022327930242, guid: 0698bab198ed79b4ca9d927d0c8f703c, type: 3}
+  m_buildUIPreviewPrefab: {fileID: 0}
+  m_actionList:
+  - m_action: Turn Left
+    m_actionType: 1
+    m_IconType: 3
+    m_hasCooldown: 0
+  - m_action: Turn Right
+    m_actionType: 1
+    m_IconType: 3
+    m_hasCooldown: 0
+  m_partUIData:
+    m_unlockedSprite: {fileID: 2800000, guid: d1170a475e4d0974ea5da1a8a0cdc3e2, type: 3}
+    m_lockedSprite: {fileID: 2800000, guid: d9c4875f476e66e4395e058a95f80138, type: 3}
+    m_animationClip: {fileID: 0}

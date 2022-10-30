@@ -1,0 +1,18 @@
+{
+    "name": "GenericDictionary.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f41f04cbe4f88524bb6805f284e43221"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

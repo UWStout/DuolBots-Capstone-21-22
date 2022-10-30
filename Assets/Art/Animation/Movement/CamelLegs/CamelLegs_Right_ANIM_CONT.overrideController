@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CamelLegs_Right_ANIM_CONT
+  m_Controller: {fileID: 9100000, guid: a63aff509620a934087d257f7bb5dce4, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 066ec5122347ad042b334bd60557ff35, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 066ec5122347ad042b334bd60557ff35, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 97c32f12173aea94eabbbd57708ad48e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 97c32f12173aea94eabbbd57708ad48e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5649f95933f340143a52688023361bd8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5649f95933f340143a52688023361bd8, type: 2}

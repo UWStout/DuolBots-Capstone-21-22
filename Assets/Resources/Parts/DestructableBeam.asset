@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6cfa6717e2204f9660786c2d1830e, type: 3}
+  m_Name: DestructableBeam
+  m_EditorClassIdentifier: 
+  m_partName: DestructableBeam
+  m_partType: 4
+  m_partID: {fileID: 11400000, guid: c744787dd79f9f449ab4f2a8efdf6389, type: 2}
+  m_weight: 2000000
+  m_health: 5
+  m_movementSpeed: 0
+  m_modelPrefab: {fileID: 0}
+  m_battleLocalPrefab: {fileID: 0}
+  m_battleNetworkPrefab: {fileID: 0}
+  m_buildUIPrefab: {fileID: 0}
+  m_buildUIPreviewPrefab: {fileID: 0}
+  m_actionList: []
+  m_partUIData:
+    m_unlockedSprite: {fileID: 0}
+    m_lockedSprite: {fileID: 0}
+    m_animationClip: {fileID: 0}

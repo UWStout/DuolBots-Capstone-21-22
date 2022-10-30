@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6cfa6717e2204f9660786c2d1830e, type: 3}
+  m_Name: DestructableBarrel
+  m_EditorClassIdentifier: 
+  m_partName: DestructableBarrel
+  m_partType: 4
+  m_partID: {fileID: 11400000, guid: c91fa88da84a2414a9e95201416f98b7, type: 2}
+  m_weight: 10
+  m_health: 4
+  m_movementSpeed: 0
+  m_modelPrefab: {fileID: 6585239518876952489, guid: fa57c75cf2c40124d8f709df54fb1a2d, type: 3}
+  m_battleLocalPrefab: {fileID: 6585239518876952489, guid: fa57c75cf2c40124d8f709df54fb1a2d, type: 3}
+  m_battleNetworkPrefab: {fileID: 7676431017154026460, guid: 0ea9e963741ac0f4ea9ef7860915ba34, type: 3}
+  m_buildUIPrefab: {fileID: 0}
+  m_buildUIPreviewPrefab: {fileID: 0}
+  m_actionList: []
+  m_partUIData:
+    m_unlockedSprite: {fileID: 0}
+    m_lockedSprite: {fileID: 0}
+    m_animationClip: {fileID: 0}

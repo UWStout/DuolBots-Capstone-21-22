@@ -1,0 +1,296 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8990897314148231982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8990897314148231976}
+  - component: {fileID: 8990897314148231983}
+  - component: {fileID: 8990897314148231977}
+  - component: {fileID: 8990897314148231978}
+  - component: {fileID: -4922373871753026267}
+  - component: {fileID: -5742442084437347380}
+  m_Layer: 0
+  m_Name: InputManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8990897314148231976
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8990897314148231982}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -23.266247, y: 1.1869997, z: -12.020459}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8990897314148231983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8990897314148231982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38ea8cb3c56849f4981e549b787e5576, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_playerInput: {fileID: 8990897314148231977}
+--- !u!114 &8990897314148231977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8990897314148231982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: c652ce40b8837104786bdd786a0683fb, type: 3}
+  m_NotificationBehavior: 1
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a6c2a127-2b5c-479a-8834-88650e5dfb1b
+    m_ActionName: PartSelection/Move[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/dpad/up,/XInputControllerWindows/dpad/down,/XInputControllerWindows/dpad/left,/XInputControllerWindows/dpad/right]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5a62a4eb-7f72-4b20-9ea3-f7f8272e9df6
+    m_ActionName: PartSelection/Select[/Keyboard/enter,/XInputControllerWindows/buttonEast]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 325edcf3-2694-4ba0-a4cf-ea35be7b3886
+    m_ActionName: PartSelection/Confirm[/Keyboard/backspace,/XInputControllerWindows/start]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 59ce42cd-c717-49b0-b5c4-af263c8d89df
+    m_ActionName: Analog/ButtonEast[/XInputControllerWindows/buttonEast,/Keyboard/l]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7f41492e-38dc-4cb7-9ef6-f2e95fa59e32
+    m_ActionName: Analog/ButtonWest[/XInputControllerWindows/buttonWest,/Keyboard/j]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c2fa4472-ed4f-4ebd-addf-ddd29a8751cd
+    m_ActionName: Analog/ButtonSouth[/XInputControllerWindows/buttonSouth,/Keyboard/k]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2039931d-287e-48aa-b57a-4edbd3f7e827
+    m_ActionName: Analog/ButtonNorth[/XInputControllerWindows/buttonNorth,/Keyboard/i]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d54cf1ee-d828-470a-a2b2-358409c00279
+    m_ActionName: Analog/DPadDown[/XInputControllerWindows/dpad/down,/Keyboard/downArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b919ab99-3389-4e1b-975a-26e69d808266
+    m_ActionName: Analog/DPadUp[/XInputControllerWindows/dpad/up,/Keyboard/upArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 08408334-1072-425d-a557-09bc7f8afeaa
+    m_ActionName: Analog/DPadLeft[/XInputControllerWindows/dpad/left,/Keyboard/leftArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f27ffcca-fcd7-4c46-a7ce-0273cd86f5f1
+    m_ActionName: Analog/DPadRight[/XInputControllerWindows/dpad/right,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d3a17c4f-6142-4341-9596-708e0daabf0c
+    m_ActionName: Analog/LeftShoulder[/XInputControllerWindows/leftShoulder,/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 13d8d0e2-cc9f-43d7-abf0-f67185da1a5f
+    m_ActionName: Analog/RightShoulder[/XInputControllerWindows/rightShoulder,/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c7e20f89-462e-4a02-ba60-bfb09bd1d250
+    m_ActionName: Analog/LeftTrigger[/XInputControllerWindows/leftTrigger,/Keyboard/q]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2aa8379b-fdf5-44b9-9fef-33dd3c9147b7
+    m_ActionName: Analog/RightTrigger[/XInputControllerWindows/rightTrigger,/Keyboard/e]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 96d1db83-9a29-48aa-b6f9-e3ff602df377
+    m_ActionName: Analog/LeftStickDown[/XInputControllerWindows/leftStick/down,/Keyboard/s]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 610be4ed-4034-44d5-abc4-75b40c12dc2c
+    m_ActionName: Analog/LeftStickUp[/XInputControllerWindows/leftStick/up,/Keyboard/w]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9150dbb0-5abc-44c9-b6f6-0b9dc549d148
+    m_ActionName: Analog/LeftStickLeft[/XInputControllerWindows/leftStick/left,/Keyboard/a]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 12da180d-c0f7-48e3-a34f-b689542b66cc
+    m_ActionName: Analog/LeftStickRight[/XInputControllerWindows/leftStick/right,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 0a063863-7086-4e7d-906d-7ea99ed38c06
+    m_ActionName: Analog/LeftStickPress[/XInputControllerWindows/leftStickPress,/Keyboard/x]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 95b6a504-edbd-4c27-9b80-ea7232ffa248
+    m_ActionName: Analog/RightStickDown[/XInputControllerWindows/rightStick/down,/Mouse/delta/y]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d9329e38-e8f8-47ab-86e5-4aab9fdf84dc
+    m_ActionName: Analog/RightStickUp[/XInputControllerWindows/rightStick/up,/Mouse/delta/y]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1d3eb2d4-28f2-4728-9523-53c8de7368b9
+    m_ActionName: Analog/RightStickLeft[/XInputControllerWindows/rightStick/left,/Mouse/delta/x]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 793b86a3-3f32-4f6e-b933-3f927825b526
+    m_ActionName: Analog/RightStickRight[/XInputControllerWindows/rightStick/right,/Mouse/delta/x]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: bd7b4304-3120-4a43-b815-a38992e12b4c
+    m_ActionName: Analog/RightStickPress[/XInputControllerWindows/rightStickPress,/Mouse/middleButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1f882987-5549-4a67-9c72-ee670203cc6d
+    m_ActionName: Analog/Selecting[/XInputControllerWindows/select,/Keyboard/shift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e63565dc-e4fa-4ad3-952b-c2623d2b3124
+    m_ActionName: Analog/Start[/XInputControllerWindows/start,/Keyboard/enter]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: cea8a4a5-e503-4d31-9241-63fb3acb910d
+    m_ActionName: Analog/Camera[/Mouse/delta,/XInputControllerWindows/rightStick]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b6640d03-352f-4d4e-b68c-c4ab26c01806
+    m_ActionName: Vector1/DPadX[/XInputControllerWindows/dpad/x,/Keyboard/downArrow,/Keyboard/upArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7d01605d-5576-4ea4-8446-693099498917
+    m_ActionName: Vector1/DPadY[/XInputControllerWindows/dpad/y,/Keyboard/downArrow,/Keyboard/upArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 50a595ce-0963-4710-8cf0-1cbc6cd33d3a
+    m_ActionName: Vector1/LeftStickX[/XInputControllerWindows/leftStick/x,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3f2e390a-7ee4-499f-86bf-71785c1331a3
+    m_ActionName: Vector1/LeftStickY[/XInputControllerWindows/leftStick/y,/Keyboard/s,/Keyboard/w]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: bd805f86-16e4-44c7-ad61-e6786500e11c
+    m_ActionName: Vector1/RightStickX[/XInputControllerWindows/rightStick/x,/Mouse/delta/x]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7078faed-7d71-44ad-b2de-bffa364971a3
+    m_ActionName: Vector1/RightStickY[/XInputControllerWindows/rightStick/y,/Mouse/delta/y]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4a82ebfa-61bf-4120-8d27-5e42b7939c92
+    m_ActionName: Vector1/TriggerAxis[/XInputControllerWindows/leftTrigger,/XInputControllerWindows/rightTrigger,/Keyboard/q,/Keyboard/e]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 57f8e298-558c-4e19-bbab-967b987fd3f4
+    m_ActionName: Vector1/ShoulderAxis[/XInputControllerWindows/leftShoulder,/XInputControllerWindows/rightShoulder,/Mouse/leftButton,/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 255d6f92-51f2-4bc1-b8c2-9f57f877e533
+    m_ActionName: Vector1/ButtonsX[/XInputControllerWindows/buttonWest,/XInputControllerWindows/buttonEast,/Keyboard/j,/Keyboard/l]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ac4cea13-eb11-4de1-8275-554d55230eee
+    m_ActionName: Vector1/ButtonsY[/XInputControllerWindows/buttonSouth,/XInputControllerWindows/buttonNorth,/Keyboard/k,/Keyboard/i]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: dc50511d-a39b-43a5-8598-4f853a1762e5
+    m_ActionName: Vector2/DPad[/XInputControllerWindows/dpad,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ba3f1098-e1df-46d7-96ce-02455525af4c
+    m_ActionName: Vector2/LeftStick[/XInputControllerWindows/leftStick,/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c14b4bdc-8e5c-4636-bbe2-87854bd50f41
+    m_ActionName: Vector2/RightStick[/XInputControllerWindows/rightStick,/Mouse/delta]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 763a0260-7d71-435e-bc6a-1e4186df8806
+    m_ActionName: Vector2/Buttons[/XInputControllerWindows/buttonNorth,/XInputControllerWindows/buttonSouth,/XInputControllerWindows/buttonWest,/XInputControllerWindows/buttonEast,/Keyboard/i,/Keyboard/k,/Keyboard/j,/Keyboard/l]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: PartSelection
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!114 &8990897314148231978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8990897314148231982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38e20b14997896d4a89810974ea987fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_playerInput: {fileID: 8990897314148231977}
+  m_highlightColor: {r: 0.5471698, g: 0.41553932, b: 0.41553932, a: 1}
+  m_defaultColor: {r: 0.25490198, g: 0.25490198, b: 0.25490198, a: 1}
+  m_scrollView: {fileID: 0}
+  m_sceneToLoad: NewMainMenu
+  m_tutorialScene: NewMainMenu
+  m_battleScene: NewMainMenu
+  m_tutorialManager: {fileID: 0}
+  m_playerIndex: 2
+  isMouseVisible: 1
+--- !u!114 &-4922373871753026267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8990897314148231982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76dc2e1eca4122541b168864568a6d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_teamIndexValue: 0
+--- !u!114 &-5742442084437347380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8990897314148231982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4370dd814d42aaf4bbc0890f42bb4fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_playerIndexValue: 0

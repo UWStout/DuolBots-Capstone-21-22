@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6cfa6717e2204f9660786c2d1830e, type: 3}
+  m_Name: PipeOilSlick
+  m_EditorClassIdentifier: 
+  m_partName: PipeOilSlick
+  m_partType: 3
+  m_partID: {fileID: 11400000, guid: 2459bd1bb5cb3364cb6c1369c2b43a09, type: 2}
+  m_weight: 3
+  m_health: 5
+  m_movementSpeed: 0
+  m_modelPrefab: {fileID: 3857896184399828106, guid: ef91cc3067eb8f84f94fec022b9fff1c, type: 3}
+  m_battleLocalPrefab: {fileID: 5863550477091683174, guid: b1f3179f1a5e8b44db9efaf08a4806e5, type: 3}
+  m_battleNetworkPrefab: {fileID: 5933567841404478472, guid: 8353c2bdcdf6b094597bd96dea90184b, type: 3}
+  m_buildUIPrefab: {fileID: 0}
+  m_buildUIPreviewPrefab: {fileID: 0}
+  m_actionList:
+  - m_action: Rotate
+    m_actionType: 1
+    m_IconType: 1
+    m_hasCooldown: 0
+  - m_action: Spew
+    m_actionType: 0
+    m_IconType: 0
+    m_hasCooldown: 1
+  m_partUIData:
+    m_unlockedSprite: {fileID: 2800000, guid: d2f666aee0c431048bd726edb67d2d59, type: 3}
+    m_lockedSprite: {fileID: 2800000, guid: cae6e6937f84b234b82babda9840bd2c, type: 3}
+    m_animationClip: {fileID: 0}

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 5feeb00a35ac80c46be7775287d389c8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Messy Fika
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 28a612a63d27b744b94bce717d535cbd, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

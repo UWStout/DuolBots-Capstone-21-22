@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6cfa6717e2204f9660786c2d1830e, type: 3}
+  m_Name: CamelLeg
+  m_EditorClassIdentifier: 
+  m_partName: Mech Legs
+  m_partType: 1
+  m_partID: {fileID: 11400000, guid: e4b79d7f41fc9724e939f33584b98e88, type: 2}
+  m_weight: 0
+  m_health: 0
+  m_movementSpeed: 0
+  m_modelPrefab: {fileID: 3012425798074236473, guid: 60801fe620f44894b870968f992ba91b, type: 3}
+  m_battleLocalPrefab: {fileID: 8563148483940176265, guid: 9600bc061617c554c87359f9ba6e5444, type: 3}
+  m_battleNetworkPrefab: {fileID: 1844749100909014143, guid: 479bb81ed8f2b474ab910327ac6cb48f, type: 3}
+  m_buildUIPrefab: {fileID: 6586900949828966253, guid: 0589052563be8af41a68dc804518bcde, type: 3}
+  m_buildUIPreviewPrefab: {fileID: 0}
+  m_actionList:
+  - m_action: Turn Left
+    m_actionType: 1
+    m_IconType: 3
+    m_hasCooldown: 0
+  - m_action: Turn Right
+    m_actionType: 1
+    m_IconType: 3
+    m_hasCooldown: 0
+  m_partUIData:
+    m_unlockedSprite: {fileID: 2800000, guid: 755e056b46115994080fda2b558cc281, type: 3}
+    m_lockedSprite: {fileID: 2800000, guid: 96f9b0e56ab9f894f80e48f47f921d47, type: 3}
+    m_animationClip: {fileID: 0}

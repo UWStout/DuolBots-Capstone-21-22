@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\ctong\Desktop\DuolBots 489\DuolBots Wwise Project\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\ctong\Desktop\DuolBots 489\DuolBots Wwise Project\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\ctong\Desktop\DuolBots 489\Assets\Wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\ctong\Desktop\DuolBots 489\DuolBots Wwise Project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="899052136" Language="SFX" Hash="1527094642">
+			<ObjectPath>\SoundBanks\Default Work Unit\DuolBotsMain</ObjectPath>
+			<ShortName>DuolBotsMain</ShortName>
+			<Path>DuolBotsMain.bnk</Path>
+			<IncludedEvents>
+				<Event Id="667367514" Name="mx_arena" ObjectPath="\Events\Default Work Unit\MX\mx_arena" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="132058402" Language="SFX">
+							<ShortName>Win_Transition_Segment.wav</ShortName>
+							<Path>SFX\Win_Transition_Segment_D79FB2B7.wem</Path>
+						</File>
+						<File Id="562263839" Language="SFX">
+							<ShortName>Arena_Theme_Master_172bpm.wav</ShortName>
+							<Path>SFX\Arena_Theme_Master_172bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="757123611" Language="SFX">
+							<ShortName>Lose_Loop_140bpm.wav</ShortName>
+							<Path>SFX\Lose_Loop_140bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="929372110" Language="SFX">
+							<ShortName>Win_Loop_Master_140bpm.wav</ShortName>
+							<Path>SFX\Win_Loop_Master_140bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1013278474" Language="SFX">
+							<ShortName>Lose_Transition_Segment.wav</ShortName>
+							<Path>SFX\Lose_Transition_Segment_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{FAECDEBE-4201-46DB-B17C-40B7F827467E}">
+							<Media>
+								<File Id="929372110"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{37F69165-1730-42B9-AF2D-93674250875E}">
+							<Media>
+								<File Id="757123611"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{072D42D3-1CA5-4D7F-986A-2C495DCC49E6}">
+							<Media>
+								<File Id="562263839"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Arena_Results\None"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3444228422" Name="mx_lose" ObjectPath="\Events\Default Work Unit\MX\mx_lose" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="132058402" Language="SFX">
+							<ShortName>Win_Transition_Segment.wav</ShortName>
+							<Path>SFX\Win_Transition_Segment_D79FB2B7.wem</Path>
+						</File>
+						<File Id="562263839" Language="SFX">
+							<ShortName>Arena_Theme_Master_172bpm.wav</ShortName>
+							<Path>SFX\Arena_Theme_Master_172bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="757123611" Language="SFX">
+							<ShortName>Lose_Loop_140bpm.wav</ShortName>
+							<Path>SFX\Lose_Loop_140bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="929372110" Language="SFX">
+							<ShortName>Win_Loop_Master_140bpm.wav</ShortName>
+							<Path>SFX\Win_Loop_Master_140bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1013278474" Language="SFX">
+							<ShortName>Lose_Transition_Segment.wav</ShortName>
+							<Path>SFX\Lose_Transition_Segment_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="221232726" Name="Lose" ObjectPath="\States\Default Work Unit\Arena_Results\Lose"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2103702368" Name="mx_menu" ObjectPath="\Events\Default Work Unit\MX\mx_menu" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="348735426" Language="SFX">
+							<ShortName>Menu_Loop_Master_140bpm.wav</ShortName>
+							<Path>SFX\Menu_Loop_Master_140bpm_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3867905721" Name="mx_stop_all" ObjectPath="\Events\Default Work Unit\MX\mx_stop_all" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2127258973" Name="mx_title" ObjectPath="\Events\Default Work Unit\MX\mx_title" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="116066502" Language="SFX">
+							<ShortName>Title_Loop_Master_140bpm.wav</ShortName>
+							<Path>SFX\Title_Loop_Master_140bpm_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4061649853" Name="mx_win" ObjectPath="\Events\Default Work Unit\MX\mx_win" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="132058402" Language="SFX">
+							<ShortName>Win_Transition_Segment.wav</ShortName>
+							<Path>SFX\Win_Transition_Segment_D79FB2B7.wem</Path>
+						</File>
+						<File Id="562263839" Language="SFX">
+							<ShortName>Arena_Theme_Master_172bpm.wav</ShortName>
+							<Path>SFX\Arena_Theme_Master_172bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="757123611" Language="SFX">
+							<ShortName>Lose_Loop_140bpm.wav</ShortName>
+							<Path>SFX\Lose_Loop_140bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="929372110" Language="SFX">
+							<ShortName>Win_Loop_Master_140bpm.wav</ShortName>
+							<Path>SFX\Win_Loop_Master_140bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1013278474" Language="SFX">
+							<ShortName>Lose_Transition_Segment.wav</ShortName>
+							<Path>SFX\Lose_Transition_Segment_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="979765101" Name="Win" ObjectPath="\States\Default Work Unit\Arena_Results\Win"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="86799940" Name="sfx_axe_swing" ObjectPath="\Events\Default Work Unit\SFX\Axe\sfx_axe_swing" MaxAttenuation="100." DurationType="OneShot" DurationMin="2.085417" DurationMax="2.085417">
+					<IncludedMemoryFiles>
+						<File Id="168104458" Language="SFX">
+							<ShortName>sfx_axe_swing.wav</ShortName>
+							<Path>SFX\sfx_axe_swing_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="349001256" Name="sfx_axe_tension" ObjectPath="\Events\Default Work Unit\SFX\Axe\sfx_axe_tension" MaxAttenuation="100." DurationType="OneShot" DurationMin="4.921583" DurationMax="4.921583">
+					<IncludedMemoryFiles>
+						<File Id="101069602" Language="SFX">
+							<ShortName>sfx_axe_tension.wav</ShortName>
+							<Path>SFX\sfx_axe_tension_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2474675519" Name="sfx_axe_tension_pause" ObjectPath="\Events\Default Work Unit\SFX\Axe\sfx_axe_tension_pause" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="822486414" Name="sfx_axe_tension_resume" ObjectPath="\Events\Default Work Unit\SFX\Axe\sfx_axe_tension_resume" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2239184004" Name="sfx_bomber" ObjectPath="\Events\Default Work Unit\SFX\Bomber\sfx_bomber" MaxAttenuation="100." DurationType="OneShot" DurationMin="3.712042" DurationMax="3.712042">
+					<IncludedMemoryFiles>
+						<File Id="828656284" Language="SFX">
+							<ShortName>sfx_bomberCharge.wav</ShortName>
+							<Path>SFX\sfx_bomberCharge_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1075978878" Name="sfx_bomber_explode" ObjectPath="\Events\Default Work Unit\SFX\Bomber\sfx_bomber_explode" MaxAttenuation="100." DurationType="OneShot" DurationMin="1.793458" DurationMax="1.793458">
+					<IncludedMemoryFiles>
+						<File Id="298304948" Language="SFX">
+							<ShortName>sfx_bomber_explode_2.wav</ShortName>
+							<Path>SFX\sfx_bomber_explode_2_10C4C929.wem</Path>
+						</File>
+						<File Id="539506259" Language="SFX">
+							<ShortName>sfx_bomber_explode_1.wav</ShortName>
+							<Path>SFX\sfx_bomber_explode_1_10C4C929.wem</Path>
+						</File>
+						<File Id="639034270" Language="SFX">
+							<ShortName>sfx_bomber_explode_3.wav</ShortName>
+							<Path>SFX\sfx_bomber_explode_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3727808947" Name="sfx_bomber_pause" ObjectPath="\Events\Default Work Unit\SFX\Bomber\sfx_bomber_pause" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="4226042618" Name="sfx_bomber_resume" ObjectPath="\Events\Default Work Unit\SFX\Bomber\sfx_bomber_resume" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2885047016" Name="sfx_bouncy_wheels" ObjectPath="\Events\Default Work Unit\SFX\Wheels\sfx_bouncy_wheels" MaxAttenuation="100." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1047258921" Language="SFX">
+							<ShortName>sfx_bouncy_wheels.wav</ShortName>
+							<Path>SFX\sfx_bouncy_wheels_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2005094599" Name="sfx_bouncy_wheels_stop" ObjectPath="\Events\Default Work Unit\SFX\Wheels\sfx_bouncy_wheels_stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2537499298" Name="sfx_broken_part" ObjectPath="\Events\Default Work Unit\SFX\sfx_broken_part" MaxAttenuation="100." DurationType="OneShot" DurationMin="2." DurationMax="2.">
+					<IncludedMemoryFiles>
+						<File Id="514165751" Language="SFX">
+							<ShortName>sfx_broken_part.wav</ShortName>
+							<Path>SFX\sfx_broken_part_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="697871045" Name="sfx_bubble_creation" ObjectPath="\Events\Default Work Unit\SFX\Bubbles\sfx_bubble_creation" MaxAttenuation="100." DurationType="OneShot" DurationMin="2.085417" DurationMax="2.085417">
+					<IncludedMemoryFiles>
+						<File Id="117373756" Language="SFX">
+							<ShortName>sfx_bubble_creation_1.wav</ShortName>
+							<Path>SFX\sfx_bubble_creation_1_10C4C929.wem</Path>
+						</File>
+						<File Id="146771120" Language="SFX">
+							<ShortName>sfx_bubble_creation_4.wav</ShortName>
+							<Path>SFX\sfx_bubble_creation_4_10C4C929.wem</Path>
+						</File>
+						<File Id="176837875" Language="SFX">
+							<ShortName>sfx_bubble_creation_3.wav</ShortName>
+							<Path>SFX\sfx_bubble_creation_3_10C4C929.wem</Path>
+						</File>
+						<File Id="1056215367" Language="SFX">
+							<ShortName>sfx_bubble_creation_2.wav</ShortName>
+							<Path>SFX\sfx_bubble_creation_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4176439487" Name="sfx_bubble_pop" ObjectPath="\Events\Default Work Unit\SFX\Bubbles\sfx_bubble_pop" MaxAttenuation="100." DurationType="OneShot" DurationMin="2.085417" DurationMax="2.085417">
+					<IncludedMemoryFiles>
+						<File Id="12786970" Language="SFX">
+							<ShortName>sfx_pop_2.wav</ShortName>
+							<Path>SFX\sfx_pop_2_10C4C929.wem</Path>
+						</File>
+						<File Id="225453572" Language="SFX">
+							<ShortName>sfx_pop_1.wav</ShortName>
+							<Path>SFX\sfx_pop_1_10C4C929.wem</Path>
+						</File>
+						<File Id="329681200" Language="SFX">
+							<ShortName>sfx_pop_3.wav</ShortName>
+							<Path>SFX\sfx_pop_3_10C4C929.wem</Path>
+						</File>
+						<File Id="456506402" Language="SFX">
+							<ShortName>sfx_pop_4.wav</ShortName>
+							<Path>SFX\sfx_pop_4_10C4C929.wem</Path>
+						</File>
+						<File Id="472154622" Language="SFX">
+							<ShortName>sfx_pop_6.wav</ShortName>
+							<Path>SFX\sfx_pop_6_10C4C929.wem</Path>
+						</File>
+						<File Id="521538209" Language="SFX">
+							<ShortName>sfx_pop_8.wav</ShortName>
+							<Path>SFX\sfx_pop_8_10C4C929.wem</Path>
+						</File>
+						<File Id="858135003" Language="SFX">
+							<ShortName>sfx_pop_5.wav</ShortName>
+							<Path>SFX\sfx_pop_5_10C4C929.wem</Path>
+						</File>
+						<File Id="926284236" Language="SFX">
+							<ShortName>sfx_pop_7.wav</ShortName>
+							<Path>SFX\sfx_pop_7_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2771076363" Name="sfx_collision" ObjectPath="\Events\Default Work Unit\SFX\sfx_collision" MaxAttenuation="100." DurationType="OneShot" DurationMin="1." DurationMax="2.">
+					<IncludedMemoryFiles>
+						<File Id="84577172" Language="SFX">
+							<ShortName>sfx_collision2.wav</ShortName>
+							<Path>SFX\sfx_collision2_10C4C929.wem</Path>
+						</File>
+						<File Id="482178418" Language="SFX">
+							<ShortName>sfx_collision3.wav</ShortName>
+							<Path>SFX\sfx_collision3_10C4C929.wem</Path>
+						</File>
+						<File Id="727168753" Language="SFX">
+							<ShortName>sfx_collision4.wav</ShortName>
+							<Path>SFX\sfx_collision4_10C4C929.wem</Path>
+						</File>
+						<File Id="778506908" Language="SFX">
+							<ShortName>sfx_collision.wav</ShortName>
+							<Path>SFX\sfx_collision_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2166300584" Name="sfx_drill" ObjectPath="\Events\Default Work Unit\SFX\Drill\sfx_drill" MaxAttenuation="100." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="244654456" Language="SFX">
+							<ShortName>drill_loop.wav</ShortName>
+							<Path>SFX\drill_loop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="651549137" Language="SFX">
+							<ShortName>drill_start.wav</ShortName>
+							<Path>SFX\drill_start_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="539556352" Name="sfx_drill_material" ObjectPath="\Events\Default Work Unit\SFX\Drill\sfx_drill_material" MaxAttenuation="100." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="924451539" Language="SFX">
+							<ShortName>drilling_metal.wav</ShortName>
+							<Path>SFX\drilling_metal_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2304725039" Name="sfx_drill_material_stop" ObjectPath="\Events\Default Work Unit\SFX\Drill\sfx_drill_material_stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2385862058" Name="sfx_drill_release" ObjectPath="\Events\Default Work Unit\SFX\Drill\sfx_drill_release" MaxAttenuation="100." DurationType="OneShot" DurationMin="0.959292" DurationMax="0.959292">
+					<IncludedMemoryFiles>
+						<File Id="667828398" Language="SFX">
+							<ShortName>drill_end.wav</ShortName>
+							<Path>SFX\drill_end_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="776903669" Name="sfx_extend" ObjectPath="\Events\Default Work Unit\SFX\Extend\sfx_extend" MaxAttenuation="100." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="446150732" Language="SFX">
+							<ShortName>sfx_extend_loop.wav</ShortName>
+							<Path>SFX\sfx_extend_loop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="889083020" Language="SFX">
+							<ShortName>sfx_extend_start.wav</ShortName>
+							<Path>SFX\sfx_extend_start_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="434832063" Name="sfx_extend_release" ObjectPath="\Events\Default Work Unit\SFX\Extend\sfx_extend_release" MaxAttenuation="100." DurationType="OneShot" DurationMin="1." DurationMax="1.">
+					<IncludedMemoryFiles>
+						<File Id="188405462" Language="SFX">
+							<ShortName>sfx_extend_end.wav</ShortName>
+							<Path>SFX\sfx_extend_end_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2528838971" Name="sfx_fan_spin" ObjectPath="\Events\Default Work Unit\SFX\Fan\sfx_fan_spin" MaxAttenuation="100." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="988493639" Language="SFX">
+							<ShortName>sfx_fan_whirring.wav</ShortName>
+							<Path>SFX\sfx_fan_whirring_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1891877807" Name="sfx_fan_stop" ObjectPath="\Events\Default Work Unit\SFX\Fan\sfx_fan_stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1052484494" Name="sfx_hand_crush" ObjectPath="\Events\Default Work Unit\SFX\UI\sfx_hand_crush" MaxAttenuation="100." DurationType="OneShot" DurationMin="2." DurationMax="2.">
+					<IncludedMemoryFiles>
+						<File Id="282717302" Language="SFX">
+							<ShortName>sfx_hand_crush.wav</ShortName>
+							<Path>SFX\sfx_hand_crush_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3293812029" Name="sfx_hit_confirm" ObjectPath="\Events\Default Work Unit\SFX\sfx_hit_confirm" MaxAttenuation="100." DurationType="OneShot" DurationMin="2." DurationMax="2.">
+					<IncludedMemoryFiles>
+						<File Id="160398923" Language="SFX">
+							<ShortName>sfx_hit_confirm.wav</ShortName>
+							<Path>SFX\sfx_hit_confirm_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1799921249" Name="sfx_horn_charge" ObjectPath="\Events\Default Work Unit\SFX\Horn\sfx_horn_charge" MaxAttenuation="100." DurationType="OneShot" DurationMin="7.298958" DurationMax="7.298958">
+					<IncludedMemoryFiles>
+						<File Id="602452521" Language="SFX">
+							<ShortName>sfx_horn_charge.wav</ShortName>
+							<Path>SFX\sfx_horn_charge_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="466474101" Name="sfx_horn_fire" ObjectPath="\Events\Default Work Unit\SFX\Horn\sfx_horn_fire" MaxAttenuation="100." DurationType="OneShot" DurationMin="2.085417" DurationMax="2.085417">
+					<IncludedMemoryFiles>
+						<File Id="559579961" Language="SFX">
+							<ShortName>sfx_horn_fire.wav</ShortName>
+							<Path>SFX\sfx_horn_fire_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2344274761" Name="sfx_horn_pause" ObjectPath="\Events\Default Work Unit\SFX\Horn\sfx_horn_pause" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1830762728" Name="sfx_horn_resume" ObjectPath="\Events\Default Work Unit\SFX\Horn\sfx_horn_resume" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1505854425" Name="sfx_horn_stinger" ObjectPath="\Events\Default Work Unit\SFX\Horn\sfx_horn_stinger" MaxAttenuation="100." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="608647929" Language="SFX">
+							<ShortName>sfx_horn_stinger.wav</ShortName>
+							<Path>SFX\sfx_horn_stinger_9D0D5BAB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3681540524" Name="sfx_horn_stinger_stop" ObjectPath="\Events\Default Work Unit\SFX\Horn\sfx_horn_stinger_stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="556233365" Name="sfx_industrial_light" ObjectPath="\Events\Default Work Unit\SFX\UI\sfx_industrial_light" DurationType="OneShot" DurationMin="1." DurationMax="1.">
+					<IncludedMemoryFiles>
+						<File Id="580475941" Language="SFX">
+							<ShortName>sfx_industrial_light.wav</ShortName>
+							<Path>SFX\sfx_industrial_light_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3750475032" Name="sfx_lturret_charge" ObjectPath="\Events\Default Work Unit\SFX\LaserTurret\sfx_lturret_charge" MaxAttenuation="100." DurationType="OneShot" DurationMin="2.575396" DurationMax="2.575396">
+					<IncludedMemoryFiles>
+						<File Id="718739917" Language="SFX">
+							<ShortName>sfx_lturret_charge.wav</ShortName>
+							<Path>SFX\sfx_lturret_charge_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3188064320" Name="sfx_lturret_fire" ObjectPath="\Events\Default Work Unit\SFX\LaserTurret\sfx_lturret_fire" MaxAttenuation="100." DurationType="OneShot" DurationMin="0.542208" DurationMax="0.834188">
+					<IncludedMemoryFiles>
+						<File Id="241876279" Language="SFX">
+							<ShortName>sfx_lturret_fire_3.wav</ShortName>
+							<Path>SFX\sfx_lturret_fire_3_10C4C929.wem</Path>
+						</File>
+						<File Id="306506692" Language="SFX">
+							<ShortName>sfx_lturret_fire_1.wav</ShortName>
+							<Path>SFX\sfx_lturret_fire_1_10C4C929.wem</Path>
+						</File>
+						<File Id="886793565" Language="SFX">
+							<ShortName>sfx_lturret_fire_2.wav</ShortName>
+							<Path>SFX\sfx_lturret_fire_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1081195490" Name="sfx_lturret_pause" ObjectPath="\Events\Default Work Unit\SFX\LaserTurret\sfx_lturret_pause" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3861937461" Name="sfx_lturret_resume" ObjectPath="\Events\Default Work Unit\SFX\LaserTurret\sfx_lturret_resume" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3474264902" Name="sfx_mech_steps" ObjectPath="\Events\Default Work Unit\SFX\sfx_mech_steps" MaxAttenuation="100." DurationType="OneShot" DurationMin="1.042708" DurationMax="1.126146">
+					<IncludedMemoryFiles>
+						<File Id="177011" Language="SFX">
+							<ShortName>sfx_mech_steps_1.wav</ShortName>
+							<Path>SFX\sfx_mech_steps_1_10C4C929.wem</Path>
+						</File>
+						<File Id="58051110" Language="SFX">
+							<ShortName>sfx_mech_steps_2.wav</ShortName>
+							<Path>SFX\sfx_mech_steps_2_10C4C929.wem</Path>
+						</File>
+						<File Id="430818661" Language="SFX">
+							<ShortName>sfx_mech_steps_3.wav</ShortName>
+							<Path>SFX\sfx_mech_steps_3_10C4C929.wem</Path>
+						</File>
+						<File Id="687732987" Language="SFX">
+							<ShortName>sfx_mech_steps_4.wav</ShortName>
+							<Path>SFX\sfx_mech_steps_4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2906098724" Name="sfx_menu_move" ObjectPath="\Events\Default Work Unit\SFX\UI\sfx_menu_move" MaxAttenuation="100." DurationType="OneShot" DurationMin="0.25" DurationMax="0.25">
+					<IncludedMemoryFiles>
+						<File Id="814335599" Language="SFX">
+							<ShortName>sfx_menu_move.wav</ShortName>
+							<Path>SFX\sfx_menu_move_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4059578167" Name="sfx_oil_spew" ObjectPath="\Events\Default Work Unit\SFX\Oil\sfx_oil_spew" MaxAttenuation="100." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="784784620" Language="SFX">
+							<ShortName>sfx_oil_spew.wav</ShortName>
+							<Path>SFX\sfx_oil_spew_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="468579442" Name="sfx_oil_stop" ObjectPath="\Events\Default Work Unit\SFX\Oil\sfx_oil_stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="4280600473" Name="sfx_paint_explode" ObjectPath="\Events\Default Work Unit\SFX\sfx_paint_explode" MaxAttenuation="100." DurationType="OneShot" DurationMin="1.25" DurationMax="1.25">
+					<IncludedMemoryFiles>
+						<File Id="281577738" Language="SFX">
+							<ShortName>sfx_paint_explode.wav</ShortName>
+							<Path>SFX\sfx_paint_explode_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2932508044" Name="sfx_plugin" ObjectPath="\Events\Default Work Unit\SFX\UI\sfx_plugin" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<IncludedMemoryFiles>
+						<File Id="731296559" Language="SFX">
+							<ShortName>sfx_plug_in.wav</ShortName>
+							<Path>SFX\sfx_plug_in_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3699524474" Name="sfx_ready" ObjectPath="\Events\Default Work Unit\SFX\UI\sfx_ready" DurationType="OneShot" DurationMin="1." DurationMax="1.">
+					<IncludedMemoryFiles>
+						<File Id="925661973" Language="SFX">
+							<ShortName>sfx_ready.wav</ShortName>
+							<Path>SFX\sfx_ready_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1591654952" Name="sfx_reg_wheels" ObjectPath="\Events\Default Work Unit\SFX\Wheels\sfx_reg_wheels" MaxAttenuation="100." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="698147406" Language="SFX">
+							<ShortName>sfx_reg_wheels.wav</ShortName>
+							<Path>SFX\sfx_reg_wheels_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="95417095" Name="sfx_reg_wheels_stop" ObjectPath="\Events\Default Work Unit\SFX\Wheels\sfx_reg_wheels_stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="451119652" Name="sfx_rotate" ObjectPath="\Events\Default Work Unit\SFX\Rotate\sfx_rotate" MaxAttenuation="100." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="557313883" Language="SFX">
+							<ShortName>rotate_start.wav</ShortName>
+							<Path>SFX\rotate_start_10C4C929.wem</Path>
+						</File>
+						<File Id="876189693" Language="SFX">
+							<ShortName>sfx_rotate.wav</ShortName>
+							<Path>SFX\sfx_rotate_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="769125486" Name="sfx_rotate_release" ObjectPath="\Events\Default Work Unit\SFX\Rotate\sfx_rotate_release" MaxAttenuation="100." DurationType="OneShot" DurationMin="1.322375" DurationMax="1.322375">
+					<IncludedMemoryFiles>
+						<File Id="442595853" Language="SFX">
+							<ShortName>sfx_rotate_release.wav</ShortName>
+							<Path>SFX\sfx_rotate_release_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1876875269" Name="sfx_select_item" ObjectPath="\Events\Default Work Unit\SFX\UI\sfx_select_item" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<IncludedMemoryFiles>
+						<File Id="910770784" Language="SFX">
+							<ShortName>sfx_select_item.wav</ShortName>
+							<Path>SFX\sfx_select_item_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3036093774" Name="sfx_shoot" ObjectPath="\Events\Default Work Unit\SFX\sfx_shoot" MaxAttenuation="100." DurationType="OneShot" DurationMin="3.439042" DurationMax="3.439042">
+					<IncludedMemoryFiles>
+						<File Id="432886284" Language="SFX">
+							<ShortName>sfx_shoot.wav</ShortName>
+							<Path>SFX\sfx_shoot_25782593.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="557852407" Name="sfx_static" ObjectPath="\Events\Default Work Unit\SFX\UI\sfx_static" DurationType="OneShot" DurationMin="1.625" DurationMax="1.625">
+					<IncludedMemoryFiles>
+						<File Id="96593007" Language="SFX">
+							<ShortName>sfx_tv_static.wav</ShortName>
+							<Path>SFX\sfx_tv_static_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1060432711" Name="sfx_turn_switch" ObjectPath="\Events\Default Work Unit\SFX\UI\sfx_turn_switch" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<IncludedMemoryFiles>
+						<File Id="314424090" Language="SFX">
+							<ShortName>sfx_turn_switch.wav</ShortName>
+							<Path>SFX\sfx_turn_switch_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="221232726" Name="Lose" ObjectPath="\States\Default Work Unit\Arena_Results\Lose" GUID="{37F69165-1730-42B9-AF2D-93674250875E}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="633746153" Name="Arena_Results" ObjectPath="\States\Default Work Unit\Arena_Results" GUID="{CEA4A8BD-B1D9-4DAE-B59A-02188967B3C4}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Arena_Results\None" GUID="{072D42D3-1CA5-4D7F-986A-2C495DCC49E6}"/>
+						<State Id="979765101" Name="Win" ObjectPath="\States\Default Work Unit\Arena_Results\Win" GUID="{FAECDEBE-4201-46DB-B17C-40B7F827467E}"/>
+						<State Id="221232726" Name="Lose" ObjectPath="\States\Default Work Unit\Arena_Results\Lose" GUID="{37F69165-1730-42B9-AF2D-93674250875E}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Arena_Results\None" GUID="{072D42D3-1CA5-4D7F-986A-2C495DCC49E6}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="979765101" Name="Win" ObjectPath="\States\Default Work Unit\Arena_Results\Win" GUID="{FAECDEBE-4201-46DB-B17C-40B7F827467E}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3641356516">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

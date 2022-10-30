@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Squeek_CrushingAnimation_ANIM_CONT
+  m_Controller: {fileID: 9100000, guid: b067821b138d99f49808ea4a8e42dec4, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 59f2fcc8a1038354dbfdb12095e5a762, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5aaf84dade9a0d94abba6467b829a20c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 31bde6145ac711d428a1a50e983f8395, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cd142b80609dd344b98f95160387eb7b, type: 2}

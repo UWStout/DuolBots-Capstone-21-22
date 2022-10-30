@@ -1,0 +1,21 @@
+Order for additional network functions according to Jos-Yule on the forumns 5 years ago (https://forum.unity.com/threads/onstartclient-called-before-scene-is-fully-loaded.427952/)
+	Awake
+	OnStartServer
+	OnStartClient
+	OnStartLocalPlayer
+	OnStartAuthority (not sure if this is before or after local player actually, need to read the source)
+	OnEnable (this might come right after Awake, before all the OnStartXXX calls, not sure)
+	Start
+	Update
+	OnDisable
+	OnNetworkDestroy (this might actually come before OnDisable, not 100% sure)
+	OnDestroy
+
+
+
+The Commandments of Mirror Networking
+
+1. Thou shalt never use Awake or Start in NetworkBehaviours.
+	Stuff for networking isn't initialized yet, so isLocalPlayer doesn't really work.
+	I was managing to get by with Start for a while, but seems dangerous.
+	Use instead OnStartLocalPlayer, OnStartClient, OnStartAuthority, or OnStartServer.

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/NewMainMenu.unity
+    guid: ee9226941caf08a4b84b7f7bd22073b3
+  - enabled: 1
+    path: Assets/Scenes/BetterPartSelection_SCENE.unity
+    guid: 6bc7659e5c48664468979b0097eb7973
+  - enabled: 1
+    path: Assets/Scenes/NetworkBattle/Battle_HostJoin_SCENE.unity
+    guid: e9dcbbbd88ae49947af18cbb45d6e25a
+  - enabled: 1
+    path: Assets/Scenes/NetworkBattle/Battle_TwoPCs.unity
+    guid: 3fcce19cd56c68a4889cb3db98b60175
+  - enabled: 1
+    path: Assets/Scenes/NetworkBattle/Battle_Offline_SCENE.unity
+    guid: e73214172cbd5f942af9306895bef9bb
+  - enabled: 0
+    path: Assets/Scenes/Tutorial/BattleTutorial/StartBattleTutorial_SCENE.unity
+    guid: 4a4d1f796f31eed4796c6f6734e02826
+  - enabled: 0
+    path: Assets/Scenes/Tutorial/BattleTutorial/BattleTutorial.unity
+    guid: bafe6cd477e61ab4cb359e6789d17c41
+  - enabled: 0
+    path: Assets/Scenes/Wyatt_PlayerJoin_SCENE.unity
+    guid: 650398eafb7734d48b7b730b9f99f100
+  - enabled: 0
+    path: Assets/Scenes/HostJoinPlayer.unity
+    guid: a05a9429c0538e04eb0b9f62aeb45e9f
+  - enabled: 0
+    path: Assets/Scenes/PlayerJoin_SCENE.unity
+    guid: 3b4e170505931b2439fd0a1a72986cc8
+  - enabled: 0
+    path: Assets/Scenes/PartSelection_SCENE.unity
+    guid: eab32e5d3351dec40b3e782e9c5bc576
+  - enabled: 0
+    path: Assets/Scenes/NewAssignScene.unity
+    guid: 4911c3fa438f14f45a4652a7026c0be6
+  - enabled: 0
+    path: Assets/Scenes/Battle/Battle_FullLocalDemo.unity
+    guid: ac25eabefedd6c448827d64a5425618f
+  - enabled: 0
+    path: Assets/Scenes/Battle/Battle_FullLocalDemo.unity
+    guid: ac25eabefedd6c448827d64a5425618f
+  - enabled: 0
+    path: Assets/Scenes/TestingScenes/Ben/PlayerJoin_BattleTutorialTest_SCENE_Ben.unity
+    guid: d9b923f12587e11439a5734ab0018708
+  - enabled: 0
+    path: Assets/Scenes/TestingScenes/Ben/HostJoin_BattleTutorialTest_SCENE_Ben.unity
+    guid: 878ec26254605b343b7afce9089fcd2d
+  - enabled: 0
+    path: Assets/Scenes/TestingScenes/Ben/BattleTutorial_Ben.unity
+    guid: fee33262a2f8a054c8295c7cc03406ae
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 0e90a4fbae6cd974394b32b8c4d0eb58, type: 2}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6cfa6717e2204f9660786c2d1830e, type: 3}
+  m_Name: DestructableWoodBox
+  m_EditorClassIdentifier: 
+  m_partName: DestructableWoodBox
+  m_partType: 4
+  m_partID: {fileID: 11400000, guid: f3ae80360df5fbb49b2ecc40effc1726, type: 2}
+  m_weight: 1000
+  m_health: 3
+  m_movementSpeed: 0
+  m_modelPrefab: {fileID: 7420694564703906722, guid: bcc38238e7832774ebfeb7e8a2711608, type: 3}
+  m_battleLocalPrefab: {fileID: 7420694564703906722, guid: bcc38238e7832774ebfeb7e8a2711608, type: 3}
+  m_battleNetworkPrefab: {fileID: 7200984973407610192, guid: 12c6640293e301a428837b37f234a987, type: 3}
+  m_actionList: []
+  m_partUIData:
+    m_unlockedSprite: {fileID: 0}
+    m_lockedSprite: {fileID: 0}
+    m_animationClip: {fileID: 0}

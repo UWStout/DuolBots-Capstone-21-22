@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2103702368	mx_menu			\Default Work Unit\MX\mx_menu	
+	3867905721	mx_stop_all			\Default Work Unit\MX\mx_stop_all	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	348735426	Menu_Loop_Master_140bpm	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Mac\SFX\Menu_Loop_Master_140bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\mx_menu_screen_playlist\mx_menu_screen\Menu_Loop_Master_140bpm		3949856
+

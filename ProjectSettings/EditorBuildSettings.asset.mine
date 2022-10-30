@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/NetworkBattle/Startup_Network_Battle_SCENE.unity
+    guid: d68102d79be30c242b87ffebbeee67d3
+  - enabled: 1
+    path: Assets/Scenes/NetworkBattle/MainMenu_Network_Battle_SCENE.unity
+    guid: 14da890c5d33a834c863326428ecb3b6
+  - enabled: 1
+    path: Assets/Scenes/NetworkBattle/DamageAndHealth_Network_Battle_New_SCENE.unity
+    guid: 0ef274d861b0c1947a7fa2f75f15ca9c
+  - enabled: 1
+    path: Assets/Scenes/NetworkBattle/Startup_Local_BattleScene.unity
+    guid: 261150a5ca40e914595a86c6a539c8c2
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 0e90a4fbae6cd974394b32b8c4d0eb58, type: 2}

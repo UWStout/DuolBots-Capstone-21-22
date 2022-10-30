@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6cfa6717e2204f9660786c2d1830e, type: 3}
+  m_Name: PaintBlaster
+  m_EditorClassIdentifier: 
+  m_partName: Octo Blaster
+  m_partType: 3
+  m_partID: {fileID: 11400000, guid: 8cd3813a7e298b54eb39f7af11ffce52, type: 2}
+  m_weight: 2
+  m_health: 4
+  m_movementSpeed: 0
+  m_modelPrefab: {fileID: 8380923783878336713, guid: 98b900e9ac432834a991d82651afee8e, type: 3}
+  m_battleLocalPrefab: {fileID: 490722735616138571, guid: 372d8b5c646b3554bbabf463f46b1d56, type: 3}
+  m_battleNetworkPrefab: {fileID: 7836293443101219132, guid: e5afbc462a753a74d82180137ec7e68b, type: 3}
+  m_buildUIPrefab: {fileID: 3472137548612967150, guid: 9e5ff80c0c87cca4baa663efe4d60af4, type: 3}
+  m_buildUIPreviewPrefab: {fileID: 6575281498777274732, guid: 1f7f59efb608c5d4195af971d6f6e1a9, type: 3}
+  m_actionList:
+  - m_action: Rotate
+    m_actionType: 1
+    m_IconType: 1
+    m_hasCooldown: 0
+  - m_action: Raise
+    m_actionType: 1
+    m_IconType: 2
+    m_hasCooldown: 0
+  - m_action: Fire
+    m_actionType: 0
+    m_IconType: 0
+    m_hasCooldown: 1
+  m_partUIData:
+    m_unlockedSprite: {fileID: 2800000, guid: d16110450c8f6bd45bff8e59b26007b7, type: 3}
+    m_lockedSprite: {fileID: 2800000, guid: 39873689bb362094e90c414251a02226, type: 3}
+    m_animationClip: {fileID: 0}

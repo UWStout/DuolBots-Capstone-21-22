@@ -1,0 +1,2307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="DuolBots.BattleBotInstantiator" Collapsed="true">
+    <Position X="45.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAiCAAACAQAAAgCgECAMAAgAAAAIAQEAAAAEAgCkA=</HashCode>
+      <FileName>Assets\Scripts\Battle\BattleBotInstantiator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.BattlePlayerInputSetup" Collapsed="true">
+    <Position X="52.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAQACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\BattlePlayerInputSetup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.CinemachineFreeLookCameraController" Collapsed="true">
+    <Position X="33.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\CinemachineFreeLookCameraController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.HasFlippedMonitor" Collapsed="true">
+    <Position X="28.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAEAGABgAACIBEAACEAgAiMBBAAIAACAiAAAE0=</HashCode>
+      <FileName>Assets\Scripts\Battle\HasFlippedMonitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.LocalSetBotCenterOfMass" Collapsed="true">
+    <Position X="37" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAICAAAAAAAAAAAAIAAAAAAAAAAAAAAAAQAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\LocalSetBotCenterOfMass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.MovementConstants" Collapsed="true">
+    <Position X="44" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAQSAAAACAAAAAAAAAIAAAAAAAACAAIAAAAAAACEAg=</HashCode>
+      <FileName>Assets\Scripts\Battle\MovementConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.BattleMovementAnimation" Collapsed="true">
+    <Position X="49.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAAAEg=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartShared\Movement\BattleMovementAnimation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.SimpleAnimatorMovementModelAnimController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAEAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartShared\Movement\SimpleAnimatorMovementModelAnimController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.PartSlotIndex" Collapsed="true">
+    <Position X="40.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartShared\PartSlotIndex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Shared_ChargeSpawnProjectileFireController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQEQAABAAQAAACIABAIAAAAACAEAAABQAAAAAAABEQ=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartShared\ProjectileFireType\ChargingSpawnProjectileFireController\Shared_ChargeSpawnProjectileFireController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.Specifications_ChargeSpawnProjectileFireController" Collapsed="true">
+    <Position X="49.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAQAAAAEAhAAAAwCAAAAQAAAAAoAAABAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartShared\ProjectileFireType\ChargingSpawnProjectileFireController\Specifications_ChargeSpawnProjectileFireController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Specifications_MeleeProjectile" Collapsed="true">
+    <Position X="52.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAgAAAAgCAAAAAAAAACgAAAAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartShared\ProjectileFireType\Melee\Specifications_MeleeProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Local_SpawnProjectileFireController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAEAAAAAAAgAIAAAIAAAAAAAFAAAEAAAAAAAAAEQ=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartShared\ProjectileFireType\SpawnProjectileFireController\Local_SpawnProjectileFireController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.Specifications_SpawnProjectileFireController" Collapsed="true">
+    <Position X="26.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAQAAAAAAAAAAAgCAAAAAAAAACoAAAAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartShared\ProjectileFireType\SpawnProjectileFireController\Specifications_SpawnProjectileFireController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.AxeFireController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQkQAARAAQAgACIABAAAAAAACAEAAABQAIgAAAABMA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\Axe\AxeFireController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.AxeProjectile" Collapsed="true">
+    <Position X="42.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIQAAAAAAAAQAAABAAAAAAAAAAEAAIAgAAAAkAAEE=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\Axe\AxeProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.BasicWheels" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAIYBAIIAAAAYgAAAAAAAABAwlAAgAAgAAAAAEEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\BasicWheels\BasicWheels.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.Input_Movement" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAYAAAAIAAAAAAAAAAAABAAAACAAAAAAEEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\BasicWheels\Input_Movement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.LocalController_Movement" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAABAAAAAAggAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\BasicWheels\LocalController_Movement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.SharedController_Movement" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIGCIYAAKAAAQCGgALIIgAIAhRQBEIkAEjgCABAAEQ=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\BasicWheels\SharedController_Movement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.Specifications_Movement" Collapsed="true">
+    <Position X="54.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAACAoAAAAAAAAAAAAAAAAAAAgEAAQAgAghAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\BasicWheels\Specifications_Movement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.BomberChargeProjectile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABBAAJAACAAAAwAAAAAAIARAAABAAAAAAAAAAACEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\BomberWeapon\BomberChargeProjectile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.Local_VisualBombCharging" Collapsed="true">
+    <Position X="31.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\BomberWeapon\Local_VisualBombCharging.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Shared_VisualBombCharging" Collapsed="true">
+    <Position X="31.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAICAAAAAIAAIAACIAAAgABAABAAAAAIAEAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\BomberWeapon\Shared_VisualBombCharging.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.BubbleBlaster_Projectile" Collapsed="true">
+    <Position X="38.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIQBIAAIAAAIQAIAAAAAAAAAAAIAAMCAACAAAAAUA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\BubbleBlaster\BubbleBlaster_Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Local_BubbleBlasterFireController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAAABDAgAIAAAAAAAAAAAFAAAAAAAAAAAAAEQ=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\BubbleBlaster\Local_BubbleBlasterFireController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.BurstLaserChargeProjectile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIBAAAwAAAAAAgAAAAAwAADAAAAAAAAAAAAAAACGA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\BurstLaser\BurstLaserChargeProjectile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.DrillProjectile" Collapsed="true">
+    <Position X="45.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIQAAAQAAAAQAAAAAAAAAAAAAAAAAAQgAAAAkAAEE=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\Drill\DrillProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Local_DrillFireController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggQAQIAAAAAgICEIAAEAAEAQAAEEQAgAAAAAQAIABEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\Drill\Local_DrillFireController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.Specifications_DrillFireController" Collapsed="true">
+    <Position X="51" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABQoCAAAAAATQAAAAAABAAAAEAQgBAAAAAAAEAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\Drill\Specifications_DrillFireController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.FanProjectileFire" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQABAAgQAAAABAoABAAAAAAAAAEAAAAgAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\Fan\FanProjectileFire.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.HandShieldProjectile" Collapsed="true">
+    <Position X="54.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAEAAAAAIAAAABBAAIQAEAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\HandShield\HandShieldProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.HandShieldPushController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQABAAQAAAAAgAgAAAAAAAAAABFAAIAAIAAAAAACkA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\HandShield\HandShieldPushController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.HornChargeProjectile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQIBAAIAJAAAAAgAABCIBAAJAEABACAAAAAAAgACEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\Horn\HornChargeProjectile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.HornProjectile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIBAoAACAAAAAoAAAAAAAgJAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\Horn\HornProjectile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.LaserCannonChargeProjectile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIBAAAQCAAAAAgAAAAAQAABAAABAAAAAAAAAAACEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\LaserCannon\LaserCannonChargeProjectile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.LaserCannonParticleController" Collapsed="true">
+    <Position X="31.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAABEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\LaserCannon\LaserCannonParticleController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.LaserChargeProjectile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAARAABAAAAAAAgAAAAAAAABAAABAAAAAACAAAACEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\LaserCannon\LaserChargeProjectile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.OilSlick_Projectile" Collapsed="true">
+    <Position X="30" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAIAAAAAAAAAEE=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\OilSlick\OilSlick_Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.OilSlick_ProjectilePool" Collapsed="true">
+    <Position X="31.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAQAAEAABAAAAAAAAACAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\OilSlick\OilSlick_ProjectilePool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.PaintBombProjectile" Collapsed="true">
+    <Position X="35.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAASAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\PaintBomb\PaintBombProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Input_Turret2Axis" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIQAiCAABAAAAEBACAABAAAAAAAQBAEAEAAAACIAEEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\Turret2Axis\Input_Turret2Axis.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.LocalController_Turret2Axis" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQACAAAAAAAgEAIAAAAAAACAAgAACAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\Turret2Axis\LocalController_Turret2Axis.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.SharedController_Turret2Axis" Collapsed="true">
+    <Position X="35.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACACAAAAAAAAEAIAAAAAAAAAAAABAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\Turret2Axis\SharedController_Turret2Axis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Specifications_Turret2Axis" Collapsed="true">
+    <Position X="28.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAQCRAAAIQAIBAIgAMAAEIAAAAIAQABAAAAAAAgHU=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\Turret2Axis\Specifications_Turret2Axis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.PlayerCameraInput2v2" Collapsed="true">
+    <Position X="54.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAIAAAAABQAAAAAAAAIAAAAAAAECkA=</HashCode>
+      <FileName>Assets\Scripts\Battle\PlayerCameraInput2v2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.PlayerInputVisualHUD" Collapsed="true">
+    <Position X="31.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACBBgSCaDCACAAgMCoIAkQQEhB4IgACUBAkAAAGKJg=</HashCode>
+      <FileName>Assets\Scripts\Battle\PlayerInputVisualHUD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.BuildSceneBotData" Collapsed="true">
+    <Position X="40.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAACBAAAAAAAIACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\BuildSceneBotData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.BuiltBotData" Collapsed="true">
+    <Position X="45.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAQAAEAAgACAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\BuildSceneBotData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.PartInSlot" Collapsed="true">
+    <Position X="49.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBAAAQAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\BuildSceneBotData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.BuiltBotDataWithTeamIndex" Collapsed="true">
+    <Position X="49.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAEE=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\BuildSceneBotData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.DamageDealer" Collapsed="true">
+    <Position X="30" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABQAAAAgAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\HealthAndDamage\DamageDealer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.ExplosionDamage" Collapsed="true">
+    <Position X="51" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAQCIAAAAEAAAAAAABAAAABgAAAAABAAAAAFA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\HealthAndDamage\ExplosionDamage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Shared_HealthGameOver" Collapsed="true">
+    <Position X="51" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAQAIACAAAAAgACQAAAAAIBEAAAAAAACAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\HealthAndDamage\GameOverMonitor\GameOverCauses\Shared_HealthGameOver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.TimerGameOver" Collapsed="true">
+    <Position X="52.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAIAAAAAAAAKEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\HealthAndDamage\GameOverMonitor\GameOverCauses\TimerGameOver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.GameOverData" Collapsed="true">
+    <Position X="42.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAQAAAAAEAAAQAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\HealthAndDamage\GameOverMonitor\GameOverData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.GameOverMonitor" Collapsed="true">
+    <Position X="44" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAEAAAAAAEAAAACBAABAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\HealthAndDamage\GameOverMonitor\GameOverMonitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Local_HealthGameOver" Collapsed="true">
+    <Position X="47.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAgAAAgAAAAIAAAAAAAACEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\HealthAndDamage\GameOverMonitor\Local_HealthGameOver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.DamageImpactHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAMA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\HealthAndDamage\ImpactHandlers\DamageImpactHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.DestroySpecifiedObjectImpactHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIg=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\HealthAndDamage\ImpactHandlers\DestroySpecifiedObjectImpactHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.SpawnObjectImpactHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACAAAQAAAAAAAAAQAAABAAAACAAAAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\HealthAndDamage\ImpactHandlers\SpawnObjectImpactHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.PartHealth" Collapsed="true">
+    <Position X="40.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAgAQQAAAAAAAAAAAAhAAAAEAAgCAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\HealthAndDamage\PartHealth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.PartImpactCollider" Collapsed="true">
+    <Position X="44" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAQAAAABAAAAAAAAAAAAAABAAAQAAAAAAAAMA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\HealthAndDamage\PartImpactCollider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.ApplyForceForwardOnAwake" Collapsed="true">
+    <Position X="31.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\HealthAndDamage\RangedProjectiles\ApplyForceForwardOnAwake.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Local_RobotHealth" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAIACAASAQAAgAAIAAAAAgEAIAAAAQAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\HealthAndDamage\RobotHealth\Local_RobotHealth.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.Shared_RobotHealth" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAEAIAABAyAQAQAAAAAAAAAAMhIAAAAAAgAAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\HealthAndDamage\RobotHealth\Shared_RobotHealth.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.BuildSceneInputData" Collapsed="true">
+    <Position X="42.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAABAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAgIAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\Input\BuildSceneInputData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.BuiltBotInputData" Collapsed="true">
+    <Position X="51" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAIAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\Input\BuiltBotInputData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.CustomInputBinding" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAACABFACAAEgAAAAAACAAAAAAAEAAACAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\Input\CustomInputBinding.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.PartInput" Collapsed="true">
+    <Position X="47.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAgAAAAAAAQQAAAAAAAAgAAARCAAAgAAAAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\Input\PartInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.PlayerRobotInputController" Collapsed="true">
+    <Position X="37" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAgTiKDGAABAAEAAIBgAAggBKJAAIQAAGCAAeKeg=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\Input\PlayerRobotInputController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Local_RobotInputController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAAAAAAQAAAAAAAAAgABAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\Input\RobotInputController\Local_RobotInputController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.Shared_RobotInputController" Collapsed="true">
+    <Position X="28.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAggAAAgAAAgAQAAYMABAAAABAEEBAAAAAAAAEAgAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\Input\RobotInputController\Shared_RobotInputController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.BotWeightCalculator" Collapsed="true">
+    <Position X="35.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEACAAAAAAAAAAAAAAAAACAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\Movement\BotWeightCalculator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.PartWeight" Collapsed="true">
+    <Position X="49.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAARAAAAAAAAAAAAAAAgAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\Movement\PartWeight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.SingleMovement" Collapsed="true">
+    <Position X="40.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAQAAAAAAAAAAAAgBIAAQAAACAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\Movement\SingleMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.MovementPartColliders" Collapsed="true">
+    <Position X="45.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAQAAAAAAAAAAAAAAAQAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\MovementPartColliders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.PartSOReference" Collapsed="true">
+    <Position X="44" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAQAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\PartSOReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.RobotHelpersSingleton" Collapsed="true">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEIAAAAAAAAAAAAACAAAAAAAAAAAgEAAAAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\RobotHelpersSingleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.RobotMovementController" Collapsed="true">
+    <Position X="52.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\RobotMovementController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.SetPlayerIndexOnAwake" Collapsed="true">
+    <Position X="44" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEI=</HashCode>
+      <FileName>Assets\Scripts\Battle\SetPlayerIndexOnAwake.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.SharedSetBotCenterOfMass" Collapsed="true">
+    <Position X="37" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\SharedSetBotCenterOfMass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.TeamSpawnPoints" Collapsed="true">
+    <Position X="42.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\TeamSpawnPoints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.PlayerCameraInput" Collapsed="true">
+    <Position X="52.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACEAAAAIAAAAABAAAAAAAAAAAAAAAAAEAkA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Test\PlayerCameraInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.SetTeamIndexOnAwake" Collapsed="true">
+    <Position X="45.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Test\SetTeamIndexOnAwake.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.ControlDisplayObject" Collapsed="true">
+    <Position X="38.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACyAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ControlsOnBot\ControlDisplayObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.GenerateIcons" Collapsed="true">
+    <Position X="47.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CUCIAAMAAiAAACAAAAAAAACAAAACAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ControlsOnBot\GenerateIcons.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Local_IconManager" Collapsed="true">
+    <Position X="51" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\ControlsOnBot\IconManager\Local_IconManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Shared_IconManager" Collapsed="true">
+    <Position X="54.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAgAAAAAAAAAAAAAAABAAAEAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\ControlsOnBot\IconManager\Shared_IconManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.PartsOnBot" Collapsed="true">
+    <Position X="42.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABEAAAEAAAAAEAAAEAIAAAAAJAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ControlsOnBot\PartsOnBot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.DestroyAfterSeconds" Collapsed="true">
+    <Position X="35.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Helpers\DestroyAfterSeconds.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.TransformChildPath" Collapsed="true">
+    <Position X="26.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAEAIACAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\NetworkChildManager\TransformChildPath.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Local_ObjectDestroyer" Collapsed="true">
+    <Position X="52.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAABAAAAACAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\ObjectDestroyer\Local_ObjectDestroyer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Network_ObjectDestroyer" Collapsed="true">
+    <Position X="35.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAgAgAAAAAAAAAAAAAAAAAAAAAAAAIAEA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\ObjectDestroyer\Network_ObjectDestroyer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.PlayerIndex" Collapsed="true">
+    <Position X="26.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\PlayerIndex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.PlayerInputIcon" Collapsed="true">
+    <Position X="28.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\PlayerInput\PlayerInputIcon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Bounds2D" Collapsed="true">
+    <Position X="37" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PlayerInput\PlayerInputIcon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.PlayerInputIconController" Collapsed="true">
+    <Position X="30" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAgAAAAAAAEAAAAAAAAAAAAAACAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\PlayerInput\PlayerInputIconController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.LoadingScreenController" Collapsed="true">
+    <Position X="7" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAEAAAAAAAAEAAAAAAAAAAAAAoAAAAAAAACA=</HashCode>
+      <FileName>Assets\Scripts\SceneLoading\LoadingScreenController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.SceneLoader" Collapsed="true">
+    <Position X="9.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAEAAAACAABEACAAAAQAgAAAA4AgAAAAAQCA=</HashCode>
+      <FileName>Assets\Scripts\SceneLoading\SceneLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.BotUnderConstruction" Collapsed="true">
+    <Position X="33.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAQAAQEDAAGAQCAgCAAAAoQQAUAAAAAAAAYAI=</HashCode>
+      <FileName>Assets\Scripts\Shared\BotUnderConstruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.MovementPartModels" Collapsed="true">
+    <Position X="47.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAQA=</HashCode>
+      <FileName>Assets\Scripts\Shared\MovementPartModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.MovementPartPlacementManager" Collapsed="true">
+    <Position X="49.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAgAAAAAAAAAAEACAAAAAQAAAkA=</HashCode>
+      <FileName>Assets\Scripts\Shared\MovementPartPlacementManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.MovementPartSpecification" Collapsed="true">
+    <Position X="51" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAARIAAACAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Shared\MovementPartPlacementManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.PartDatabase" Collapsed="true">
+    <Position X="13.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAIAAAACgAAAAABAgBBAAAAAAAAAAAAUA=</HashCode>
+      <FileName>Assets\Scripts\Shared\PartDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.PartScriptableObject" Collapsed="true">
+    <Position X="51" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAASEABAACQAhAACABQAAUAAAIIAoAACCAAAAEAw=</HashCode>
+      <FileName>Assets\Scripts\Shared\PartScriptableObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.PartUIData" Collapsed="true">
+    <Position X="47.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAQAAEAAAAAAAAAEBAAAAAAAAAAAAAgg=</HashCode>
+      <FileName>Assets\Scripts\Shared\PartUIData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.SlotPlacementManager" Collapsed="true">
+    <Position X="44" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAACAAgAAABQAAAABAEAAAAAAAIAACAA=</HashCode>
+      <FileName>Assets\Scripts\Shared\SlotPlacementManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.SkyboxRotate" Collapsed="true">
+    <Position X="42.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\SkyboxRotate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.TeamIndex" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TeamIndex.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.SetCameraTargetToTeamBot" Collapsed="true">
+    <Position X="42.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAASAAiAAAAAAAAAAAAAAABAAIAAAAAAAACUA=</HashCode>
+      <FileName>Assets\Scripts\Test\FullLocalDemo\SetCameraTargetToTeamBot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.AssigningTurret" Collapsed="true">
+    <Position X="38.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIUQgKBCAAAAAQAACAAAAAAEAAAQAAEAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\Assigning\AssigningTurret.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.CustomInputData" Collapsed="true">
+    <Position X="26.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAEABAAIAAAAAAAAAAAAAAAAAAiAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Assigning\CustomInputData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.InputFromController" Collapsed="true">
+    <Position X="49.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGAAgTiKBGAABAAEAAIAgAAggBIIAAMQAAHBAAeKOg=</HashCode>
+      <FileName>Assets\Scripts\UI\Assigning\InputFromController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.PartAnimManager" Collapsed="true">
+    <Position X="37" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAgAQAAAAACgAAQBAAAAAAAAAAAAAICAAAAACAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Assigning\PartAnimManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.PassingInput" Collapsed="true">
+    <Position X="51" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAEAAAAAAIAAAAAAgAAAAAAQAAAABAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\Assigning\PassingInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.SavingRebinds" Collapsed="true">
+    <Position X="33.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAAAAAAIAAAAAAAAAQAAAYAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Binds\SavingRebinds.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.PartSelectionGivePlayerControl" Collapsed="true">
+    <Position X="52.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAQABBAAQAAAAAIAAQAAEEggAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\BuildUI\PartSelectionGivePlayerControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.GivePlayerOneControl" Collapsed="true">
+    <Position X="52.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAQABBAAAAAAAAIAAQAAEAggAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\CreateServerScene\GivePlayerOneControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Keypad" Collapsed="true">
+    <Position X="26.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAABAAAAAQAAAADAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\CreateServerScene\Keypad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.RoomKeyInputField" Collapsed="true">
+    <Position X="54.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\CreateServerScene\RoomKeyInputField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.GetInputOnClick" Collapsed="true">
+    <Position X="51" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAACAACAAEAAAAAAAABAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\UI\Dropdown\GetInputOnClick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.InputEnumDropdown" Collapsed="true">
+    <Position X="47.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACACAAAAEAAAAAAAAiAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Dropdown\InputEnumDropdown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.StoringInputs" Collapsed="true">
+    <Position X="33.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAgAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Dropdown\StoringInputs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.HostJoinSceneController" Collapsed="true">
+    <Position X="35.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\HostJoin\HostJoinSceneController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.FixedPartCameras" Collapsed="true">
+    <Position X="37" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQEAAAAAAACUAGACAAC4AAAAAIAAACAAAAAAIAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\InGameUI\FixedPartCameras.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Local_GetPartImagesForDisplay" Collapsed="true">
+    <Position X="45.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\InGameUI\GetPartImagesForDisplay\Local_GetPartImagesForDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Shared_GetPartImagesForDisplay" Collapsed="true">
+    <Position X="49.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAQCAAIAAASIgAIgUgIAoAEAAAABAAAAQAAAAABcU=</HashCode>
+      <FileName>Assets\Scripts\UI\InGameUI\GetPartImagesForDisplay\Shared_GetPartImagesForDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Local_HealthSlider_UI" Collapsed="true">
+    <Position X="49.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\InGameUI\HealthSlider\Local_HealthSlider_UI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Shared_HealthSlider_UI" Collapsed="true">
+    <Position X="52.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAEAQIAAIAAAQAAAAAAAAAAAAEAAAAAAQA=</HashCode>
+      <FileName>Assets\Scripts\UI\InGameUI\HealthSlider\Shared_HealthSlider_UI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.PartHealthColorScale" Collapsed="true">
+    <Position X="42.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEQAAAAAAAAAAAACAAAAAQAAACAAgAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\InGameUI\PartHealthColorScale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Local_TimerManager" Collapsed="true">
+    <Position X="30" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\InGameUI\TimeManager\Local_TimerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Shared_TimerManager" Collapsed="true">
+    <Position X="30" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAAACAAAACBgAEAAAAAAAAgAIABQAAAgBIAEg=</HashCode>
+      <FileName>Assets\Scripts\UI\InGameUI\TimeManager\Shared_TimerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.AdvanceWhenBothReady" Collapsed="true">
+    <Position X="28.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCAAAAAAAAAAAAAAAAAAABAAAAAgAAAgAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\PlayerJoin\AdvanceWhenBothReady.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.CurrentPlayerInputDevices" Collapsed="true">
+    <Position X="47.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAIAAAAAAAAAAKA=</HashCode>
+      <FileName>Assets\Scripts\UI\PlayerJoin\CurrentPlayerInputDevices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.JoinPlayerSceneInputInitializer" Collapsed="true">
+    <Position X="54.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\PlayerJoin\JoinPlayerSceneInputInitializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.PlayerJoinSceneController" Collapsed="true">
+    <Position X="33.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAUAAgAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\PlayerJoin\PlayerJoinSceneController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.RebindSaveLoad" Collapsed="true">
+    <Position X="45.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAIAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Rebinding UI\RebindSaveLoad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.ClientAuthorityTeamManager" Collapsed="true">
+    <Position X="35.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAEAAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAUA=</HashCode>
+      <FileName>Assets\Scripts\Battle\ClientAuthorityTeamManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.Network_ChargeSpawnProjectileFireController" Collapsed="true">
+    <Position X="26.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAiEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartShared\ProjectileFireType\ChargingSpawnProjectileFireController\Network_ChargeSpawnProjectileFireController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.Network_SpawnProjectileFireController" Collapsed="true">
+    <Position X="21.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAEAAAAAAAgAIAAAIAAAAAAAFAAAEAAAAAAAIAAQ=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartShared\ProjectileFireType\SpawnProjectileFireController\Network_SpawnProjectileFireController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DuolBots.Mirror.Network_VisualBombCharging" Collapsed="true">
+    <Position X="24" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAIAAAAgAAAAAAAAAAEAAAAAAAAAACIAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\BomberWeapon\Network_VisualBombCharging.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.NetworkBomberVisualPreview" Collapsed="true">
+    <Position X="1.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEAAAAAAAgAAIAAAAAAAABAAAAAAAgAAIAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\BomberWeapon\NetworkBomberVisualPreview.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.Network_LaserCannonParticleController" Collapsed="true">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAAAACAAAAAAAAgEBABAAAAAACEAAIBEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\LaserCannon\Network_LaserCannonParticleController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.OnParticleSystemStateChangeData" Collapsed="true">
+    <Position X="33.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\LaserCannon\OnParticleSystemStateChangeData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.Network_HealthGameOver" Collapsed="true">
+    <Position X="30" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAgAAAAAAAAAgAAAgABAAAAAAAAAAIAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\HealthAndDamage\GameOverMonitor\Network_HealthGameOver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.NetworkSpawnObjectImpactHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACAAAQAAAAAAAAAAAAABAAAACAAAAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\HealthAndDamage\ImpactHandlers\NetworkSpawnObjectImpactHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.Mirror.Network_RobotHealth" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAABAAAIAAAAyAQAAEAEAAAAAAgEgIAACAAAAAAIAAQ=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\HealthAndDamage\RobotHealth\Network_RobotHealth.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.Mirror.Network_IconManager" Collapsed="true">
+    <Position X="33.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAACEA=</HashCode>
+      <FileName>Assets\Scripts\ControlsOnBot\IconManager\Network_IconManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.BattleMatchManager" Collapsed="true">
+    <Position X="47.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAACAAQAACAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\BattleMatchManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.BattleNetworkManager" Collapsed="true">
+    <Position X="51" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\BattleNetworkManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.BattlePlayerNetworkObject" Collapsed="true">
+    <Position X="54.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAEAAAAAIAEQ=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\BattlePlayerNetworkObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.BattleTeamIndexProvider" Collapsed="true">
+    <Position X="26.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgEAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\BattleTeamIndexProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.BotRootOwnership" Collapsed="true">
+    <Position X="31.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAIgAAAAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\BotRootOwnership.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.ClientNetworkBehaviour" Collapsed="true">
+    <Position X="5.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\ClientNetworkBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.DestroyCollidersOnClient" Collapsed="true">
+    <Position X="37" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\DestroyCollidersOnClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.DestroyCollidersOnClientNetworkChild" Collapsed="true">
+    <Position X="19.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\DestroyCollidersOnClientNetworkChild.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.NetworkBotInstantiator" Collapsed="true">
+    <Position X="44" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEQAgAgICAAAgAIAAEAAAAAAABAAAAcAAgAAAgEA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\NetworkBotInstantiator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.NetworkBotWeightCalculator" Collapsed="true">
+    <Position X="45.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\NetworkBotWeightCalculator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.NetworkChildBehaviour" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAEEQBAAAAhAAAAgAAAAAECAAAAAEAoAAAAAAIAEw=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\NetworkChildManager\NetworkChildBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.NetworkChildIdentity" Collapsed="true">
+    <Position X="47.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABEEQBAAAApQAAAgAAEAAECAAAAAEAoAAAAAAIAEw=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\NetworkChildManager\NetworkChildIdentity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.NetworkChildManager" Collapsed="true">
+    <Position X="49.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAUChAEAQAEQAAAAGhBADAECoAgAEgANAEQ=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\NetworkChildManager\NetworkChildManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.NetworkMessenger" Collapsed="true">
+    <Position X="52.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAgCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\NetworkChildManager\NetworkMessenger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.NetworkTransformDynamicChild" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\NetworkChildManager\NetworkTransformDynamicChild.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.NetworkTransformDynamicChildBase" Collapsed="true">
+    <Position X="8.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIDAAAAAAAIAwAAAAACAQAIGASAAAEAAAAAIAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\NetworkChildManager\NetworkTransformDynamicChildBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.NetworkTransformDynamicChildManager" Collapsed="true">
+    <Position X="28.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIFAAAAAAACABpAIAAAAIAQACAAABAAIAAAABIAACUA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\NetworkChildManager\NetworkTransformDynamicChildManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.NetworkTransformDynamicChildsChild" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\NetworkChildManager\NetworkTransformDynamicChildsChild.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.NetworkTransformDynamicChildsChildren" Collapsed="true">
+    <Position X="12.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAIAAAAAgAAAQAAEASAAAAAAAAAIEA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\NetworkChildManager\NetworkTransformDynamicChildsChildren.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.NetworkTransformDynamicChildsChildrenSingleChild" Collapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAgAAAAAACEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\NetworkChildManager\NetworkTransformDynamicChildsChildrenSingleChild.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.ServerOnlyComponentListNetworkChild" Collapsed="true">
+    <Position X="15" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgACAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\NetworkChildManager\ServerOnlyComponentListNetworkChild.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.ServerOnlyComponentNetworkChild" Collapsed="true">
+    <Position X="17.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\NetworkChildManager\ServerOnlyComponentNetworkChild.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.TransformDataWithParent" Collapsed="true">
+    <Position X="33.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAABAEAAAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\NetworkChildManager\TransformDataWithParent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.NetworkDestroyAfterSeconds" Collapsed="true">
+    <Position X="51" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\NetworkDestroyAfterSeconds.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.NetworkSetBotCenterOfMass" Collapsed="true">
+    <Position X="0.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAYAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\NetworkSetBotCenterOfMass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.NetworkTeamIndex" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\NetworkTeamIndex.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.Mirror.Network_ObjectSpawner" Collapsed="true">
+    <Position X="37" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAgAAAAAAAAAAAAAAABAAAAAAAABAIAEA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\ObjectSpawner\Network_ObjectSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.BuiltBotDataReaderWriter" Collapsed="true">
+    <Position X="47.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\ReaderWriters\BuiltBotDataReaderWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.BuiltBotInputDataReaderWriter" Collapsed="true">
+    <Position X="52.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\ReaderWriters\BuiltBotInputDataReaderWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.CustomInputBindingReaderWriter" Collapsed="true">
+    <Position X="52.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\ReaderWriters\CustomInputBindingReaderWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.CustomInputDataReaderWriter" Collapsed="true">
+    <Position X="28.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\ReaderWriters\CustomInputDataReaderWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.TransformChildPathReaderWriter" Collapsed="true">
+    <Position X="28.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\ReaderWriters\TransformChildPathReaderWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.TransformDataReaderWriter" Collapsed="true">
+    <Position X="31.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\ReaderWriters\TransformDataReaderWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.RigidbodyServerOnly" Collapsed="true">
+    <Position X="51" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\RigidbodyServerOnly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.Network_RobotInputController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAgAAAAAQIAAAAAAAAgABAAAgAAAAAAIAEA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\RobotInputController\Network_RobotInputController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DuolBots.Mirror.ServerConnectionChoice" Collapsed="true">
+    <Position X="38.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBQAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\ServerConnectionChoice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.ServerNetworkBehaviour" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAACAAAAAEAgAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\ServerNetworkBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.ServerOnlyComponentList" Collapsed="true">
+    <Position X="40.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgACAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\ServerOnlyComponentList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.SetCameraTarget2v2" Collapsed="true">
+    <Position X="5.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAQAAAAAAAAAAAAAAAAAABAAIRAAAAAAACUQ=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\SetCameraTarget2v2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.SyncChildTransformsAfterBotsCreated" Collapsed="true">
+    <Position X="38.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAABAAAAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\SyncChildTransformsAfterBotsCreated.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.TwoPlayerTestNetworkManager" Collapsed="true">
+    <Position X="42.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAIAAAAAAAAIAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\TwoPlayerTestNetworkManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.LoadOnlineScene" Collapsed="true">
+    <Position X="40.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAAQAAAAAAAAAEAAAAAQAABAAIAAAAABAAAEA=</HashCode>
+      <FileName>Assets\Scripts\SceneLoading\LoadOnlineScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.Network_GetPartImagesForDisplay" Collapsed="true">
+    <Position X="28.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgABAAIAAAAAAAADEA=</HashCode>
+      <FileName>Assets\Scripts\UI\InGameUI\GetPartImagesForDisplay\Network_GetPartImagesForDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.Network_HealthSlider_UI" Collapsed="true">
+    <Position X="31.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAIAAAAAAAACEA=</HashCode>
+      <FileName>Assets\Scripts\UI\InGameUI\HealthSlider\Network_HealthSlider_UI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.Network_TimerManager" Collapsed="true">
+    <Position X="42.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAACEA=</HashCode>
+      <FileName>Assets\Scripts\UI\InGameUI\TimeManager\Network_TimerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LegsModelAnimController" Collapsed="true">
+    <Position X="35.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartShared\Movement\LegsModelAnimController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Specifications_AxeFireController" Collapsed="true">
+    <Position X="47.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAggQIQCAAAAIEAhAAAAwKAAAAQAAAAAgBgABAAIAE=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\Axe\Specifications_AxeFireController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMovement_Custom" Collapsed="true">
+    <Position X="45.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAQAiAAIAAAABAQAABAQQAAEAQAAAgAIAAAAAE=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\TEST_Movement\TestMovement_Custom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMovement_ForceTorque" Collapsed="true">
+    <Position X="47.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\TEST_Movement\TestMovement_ForceTorque.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMovement_Manual" Collapsed="true">
+    <Position X="49.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAEAAIAAQEAAEAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\TEST_Movement\TestMovement_Manual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMovement_WheelColliders" Collapsed="true">
+    <Position X="51" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAgAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\TEST_Movement\TestMovement_WheelColliders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RotateObject" Collapsed="true">
+    <Position X="28.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BuildBot\RotateObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControllerImageScheme" Collapsed="true">
+    <Position X="40.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAECBDAQAgAAAAgIAAAgAAAAAAAEABAAAgAAQAAEAM=</HashCode>
+      <FileName>Assets\Scripts\ControllerImageScheme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FollowTargetGameObject" Collapsed="true">
+    <Position X="38.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\ControlsOnBot\FollowTargetGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IconEnabling" Collapsed="true">
+    <Position X="37" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAgAEAAAAAAAAAAAAAAAABAACAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ControlsOnBot\IconEnabling.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IconInputManager" Collapsed="true">
+    <Position X="38.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ControlsOnBot\IconInputManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilePaths" Collapsed="true">
+    <Position X="35.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEihQIACAAIAAAAQAAAEkAQAMAAAAAAAAAAkAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FilePathsStatic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngleHelpers" Collapsed="true">
+    <Position X="30" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAIAAAAAAAIAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Helpers\AngleHelpers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CustomDebug" Collapsed="true">
+    <Position X="49.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Helpers\Debug\CustomDebug.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DontDestroyOnLoad" Collapsed="true">
+    <Position X="44" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Helpers\DontDestroyOnLoad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eRotationAxisExtensions" Collapsed="true">
+    <Position X="49.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Helpers\eRotationAxis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ByteArrayExtensions" Collapsed="true">
+    <Position X="26.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Helpers\Extensions\ByteArrayExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObjectExtensions" Collapsed="true">
+    <Position X="40.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Helpers\Extensions\GameObjectExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IReadOnlyListExtensions" Collapsed="true">
+    <Position X="52.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Helpers\Extensions\IReadOnlyListExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TransformExtensions" Collapsed="true">
+    <Position X="35.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Helpers\Extensions\TransformExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DynamicSingletonMonoBehaviour&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAIAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Helpers\Singletons\DynamicSingletonMonoBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SingletonMonoBehaviour&lt;T&gt;" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAIAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Helpers\Singletons\SingletonMonoBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToggleGameObjectActive" Collapsed="true">
+    <Position X="54.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Helpers\ToggleGameObjectActive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TransformData" Collapsed="true">
+    <Position X="30" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAAACAEAACAIAQGAAAAAAAAAABEAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Helpers\TransformData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TransformVelocityCalculator" Collapsed="true">
+    <Position X="37" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAACAAAAAAAAIAAAAAAAACAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Helpers\TransformVelocityCalculator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySerializedDictionary&lt;TKey, TValue&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAEAAAAAAAAAEAAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Helpers\UnitySerializedDictionary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ImageSceneScript" Collapsed="true">
+    <Position X="40.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ImageSceneScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StringID" Collapsed="true">
+    <Position X="35.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAEAAAAAAAAAAAAACQAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Shared\StringID.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StyleGuide" Collapsed="true">
+    <Position X="37" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwUAACAAKAAABAAAABAAIIAAAAABhEAAAAAAAAAAEg=</HashCode>
+      <FileName>Assets\Scripts\StyleGuide.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssigningControl" Collapsed="true">
+    <Position X="37" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAgCAAAGGAABQAYAwFIEAAAIAAMAARQACgAIAAIEA=</HashCode>
+      <FileName>Assets\Scripts\UI\Assigning\AssigningControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuiltBotAssign" Collapsed="true">
+    <Position X="44" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAAACAAEEAAAAAAAAAABAAAAAAAAAAAAAAgAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\Assigning\BuiltBotAssign.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControllerMovement" Collapsed="true">
+    <Position X="42.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQBAAAACSAAAAAEAAAAAAQAABECIAgAQAAAAAAQCEA=</HashCode>
+      <FileName>Assets\Scripts\UI\Assigning\ControllerMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefaultControls" Collapsed="true">
+    <Position X="33.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAABgACAAAABAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Assigning\DefaultControls.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputButtonInfo" Collapsed="true">
+    <Position X="45.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARQEABEAAAAQAAAAyAAABGAABhAAAAAQIAAABAAAgMA=</HashCode>
+      <FileName>Assets\Scripts\UI\Assigning\InputButtonInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PartAssignPlayerInputManager" Collapsed="true">
+    <Position X="38.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACCAABQAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Assigning\PartAssignPlayerInputManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScrollMoveAssignScene" Collapsed="true">
+    <Position X="35.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEBAEACCAAAAAQAAAABAAAAAABAAAAAEAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\Assigning\ScrollMoveAssignScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="@AssigningControls" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkACAAAAACEAABAAAACACJABAIAAAGAEAAMgEABQAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Binds\AssigningControls.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChangingInputs" Collapsed="true">
+    <Position X="30" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\Binds\ChangingInputs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResetAllBindings" Collapsed="true">
+    <Position X="47.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Binds\ResetAllBindings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestingInputSystem" Collapsed="true">
+    <Position X="44" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAgAAAAAAAEAAAAAAAAAAAAAAAAAAAEAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\Binds\TestingInputSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DetectPlayerDevice" Collapsed="true">
+    <Position X="40.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAQAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\BuildUI\BuildTutorial\DetectPlayerDevice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PartSelectTutorialConditionCheck" Collapsed="true">
+    <Position X="37" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgQEAAAAACEAAAAAAAAAAiAAAAEAAAAAIAAABABoAEQ=</HashCode>
+      <FileName>Assets\Scripts\UI\BuildUI\BuildTutorial\PartSelectTutorialConditionCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PopupButtonIndicator" Collapsed="true">
+    <Position X="38.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAIAiAAAAAgAAAgAIAQAAAAAAAAAAAAAAAAEAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\BuildUI\BuildTutorial\PopupButtonIndicator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TutorialPanelSettings" Collapsed="true">
+    <Position X="40.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAgAAIAAAQAAAgAAAACAAAGAgAEAAAgAARAQAOAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\BuildUI\BuildTutorial\TutorialPanelSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChassisSelectionCinemachineCameraTarget" Collapsed="true">
+    <Position X="31.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GARAAAEAIiIAAQCAAAQAAAACAAgABDIEIAAQICAACEI=</HashCode>
+      <FileName>Assets\Scripts\UI\BuildUI\ChassisSelectionCinemachineCameraTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConfirmPanel" Collapsed="true">
+    <Position X="37" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAEAAAAQIACQAAAAAQAAQAAAAAAAAAAAAAAQAAACEA=</HashCode>
+      <FileName>Assets\Scripts\UI\BuildUI\ConfirmPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GenerateViewportBot" Collapsed="true">
+    <Position X="49.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAQACAAEAAQAAAAAAAABAAAAAAACAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\BuildUI\GenerateViewportBot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PartInfoPanel" Collapsed="true">
+    <Position X="45.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kgQCAAAEAAAAgAAIAAAAEAAAAAAABABAAgCAAAAAgEg=</HashCode>
+      <FileName>Assets\Scripts\UI\BuildUI\PartInfoPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PartSelectionOutlinePlugObject" Collapsed="true">
+    <Position X="54.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAACAAAAAAgAAAARAAAAEAAgAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\BuildUI\PartSelectionOutlinePlugObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PartSelectionPlayerNavigationManager" Collapsed="true">
+    <Position X="26.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAECAAAAAAABAAAAAACIAAAAAEAggAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\BuildUI\PartSelectionPlayerNavigationManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PartSelectionRow" Collapsed="true">
+    <Position X="28.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>lQQHiSASBKGQVECKYAWCAACCDVocDAQCQDgABQJIAEI=</HashCode>
+      <FileName>Assets\Scripts\UI\BuildUI\PartSelectionRow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PartSelectionSinglePartTypeSelection" Collapsed="true">
+    <Position X="30" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAAAAIAAAAIAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\BuildUI\PartSelectionSinglePartTypeSelection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PartSelectionSlotStateMachine" Collapsed="true">
+    <Position X="31.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAIAAAAAAAAAAQAAAAAAAEAARAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\BuildUI\PartSelectionSlotStateMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PartSelectorManager" Collapsed="true">
+    <Position X="4.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAQkDaYABAFQICECAqCgXEgAJRxIAASEHAAMU8I=</HashCode>
+      <FileName>Assets\Scripts\UI\BuildUI\PartSelectorManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PartSelectPlayerInputManager" Collapsed="true">
+    <Position X="33.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAQIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\BuildUI\PartSelectPlayerInputManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PartSelectPlayerObjectEventManager" Collapsed="true">
+    <Position X="35.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kRUAhCAAACAAAICAIAAAAAAAAAAABAAAIAAAAIAIIEA=</HashCode>
+      <FileName>Assets\Scripts\UI\BuildUI\PartSelectPlayerObjectEventManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PartSelectTutorialManager" Collapsed="true">
+    <Position X="38.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAIAEoAQAAAAAQAAEAAAAAAACA2QAYAA=</HashCode>
+      <FileName>Assets\Scripts\UI\BuildUI\PartSelectTutorialManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScrollViewMove" Collapsed="true">
+    <Position X="37" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAEBAEACEAAhAAAAAAABAAAAAABAAAAAEAAIAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\BuildUI\ScrollViewMove.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssignCamera" Collapsed="true">
+    <Position X="33.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAACAAAAAAAAAAABIAIAAAIIAAAEAAQ=</HashCode>
+      <FileName>Assets\Scripts\UI\Camera\AssignCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AssignControl_PopupManager" Collapsed="true">
+    <Position X="35.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAACAAAAQAAAACAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Assets\Scripts\UI\ControlsUIScene\AssignControl_PopupManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlUIScriptableObjectImplement" Collapsed="true">
+    <Position X="44" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AI0AAAJSICCiAiAAAEAAoTAAEcBHAIRAYkQiABABBiA=</HashCode>
+      <FileName>Assets\Scripts\UI\ControlsUIScene\ControlUIScriptableObjectImplement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighlightParts" Collapsed="true">
+    <Position X="30" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAAAAAAACAAAAAAIAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\ControlsUIScene\HighlightParts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PromptManager" Collapsed="true">
+    <Position X="40.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAACAAYAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\ControlsUIScene\PromptManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnHighlightParts" Collapsed="true">
+    <Position X="44" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAACAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\ControlsUIScene\UnHighlightParts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DropdownInputList" Collapsed="true">
+    <Position X="47.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAAAAAgAAAACAgAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Dropdown\DropdownInputList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraPostionsForParts" Collapsed="true">
+    <Position X="28.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\InGameUI\CameraPostionsForParts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InstantiateLayoutPrefabs" Collapsed="true">
+    <Position X="51" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAACCgAgAEAAAAADAwAABABAAAABAACAACYAAAAEU=</HashCode>
+      <FileName>Assets\Scripts\UI\InGameUI\InstantiateLayoutPrefabs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuManager" Collapsed="true">
+    <Position X="42.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAACAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\InGameUI\MenuManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoadNextScene" Collapsed="true">
+    <Position X="38.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\LoadNextScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenu" Collapsed="true">
+    <Position X="38.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAQA=</HashCode>
+      <FileName>Assets\Scripts\UI\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerPartSelect" Collapsed="true">
+    <Position X="35.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\PlayerPartSelect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SavingRebindings" Collapsed="true">
+    <Position X="31.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAABAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Rebinding UI\SavingRebindings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rotate" Collapsed="true">
+    <Position X="26.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Rotate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaveSettings" Collapsed="true">
+    <Position X="30" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAACCAAAAABAAAAABACAAACAIAAAAAAEBAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\Settings\SaveSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListWrapper" Collapsed="true">
+    <Position X="37" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Settings\SaveSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SingletonTutorialStateManager" Collapsed="true">
+    <Position X="11.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABCAAAACAAAIAEIAAAACAAAAAAAAAAAAAAkCQAAVA=</HashCode>
+      <FileName>Assets\Scripts\UI\SingletonTutorialStateManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TutorialManager" Collapsed="true">
+    <Position X="38.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAADAAAIJADAAABAAAAAAACAASABAAAAAgAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\TutorialManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleTutorialManager" Collapsed="true">
+    <Position X="28.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIAAAAACAAgAQIAAAAAYAAAABAAAAAQCQAIAIAEQ=</HashCode>
+      <FileName>Assets\Scripts\UI\Tutorials\BattleTutorialManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreateChassis" Collapsed="true">
+    <Position X="45.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACAAEAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Tutorials\CreateChassis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogueManager" Collapsed="true">
+    <Position X="42.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCQAAAAAAQAAAgIAABAAIAAAAAAACAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\Tutorials\DialogueManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KillTarget" Collapsed="true">
+    <Position X="28.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAACAAAAAAAAAAAAAAAAAIAAAIAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Tutorials\KillTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveTutorial" Collapsed="true">
+    <Position X="52.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACCAAQAAAAAAAAAAAAAAAQAAAAAQAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Tutorials\MoveTutorial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveTutorialObject" Collapsed="true">
+    <Position X="54.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Tutorials\MoveTutorialObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PartTutorial" Collapsed="true">
+    <Position X="45.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAABAAAAAAQAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Tutorials\PartTutorial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReturnFromTutorials" Collapsed="true">
+    <Position X="49.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Tutorials\ReturnFromTutorials.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Test.FakeBuildSceneData" Collapsed="true">
+    <Position X="54.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAgAAAAAAAAAAABAAAAAAAAAAAAAAAAEg=</HashCode>
+      <FileName>Assets\Scripts\Battle\Test\FakeBuildSceneData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Test.CustomInputBindingWithStringID" Collapsed="true">
+    <Position X="54.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAACABFACAAAAAAAAAACAAAABAAEAAACAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Test\FakeBuildSceneData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Test.FakeBuildSceneBotData" Collapsed="true">
+    <Position X="52.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAQAAAAAIACAAAAAAAAAAAAgAAABAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Test\FakeBuildSceneData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Test.FakePartInSlot" Collapsed="true">
+    <Position X="30" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAABAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Test\FakeBuildSceneData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Test.FakeBuiltBotData" Collapsed="true">
+    <Position X="26.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAEE=</HashCode>
+      <FileName>Assets\Scripts\UI\Assigning\FakeBuiltBotData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Test.FakeBuiltData" Collapsed="true">
+    <Position X="28.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAQAAAAAIACAAAAAAAAAAAAgAAABAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Assigning\FakeBuiltBotData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Test.FakePartInSlot2" Collapsed="true">
+    <Position X="31.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAABAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Assigning\FakeBuiltBotData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Icons.ManageWorldOrUI" Collapsed="true">
+    <Position X="40.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAACAAAQAAAAAAACABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ControlsOnBot\ManageWorldOrUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.Steam.SteamBattleLobby" Collapsed="true">
+    <Position X="30" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAAAQgACAASCAgAAAAAAAAAAAABAAMAAIQAIAEAEA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\Steam\SteamBattleLobby.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuolBots.Mirror.Steam.SteamOverlayDialogue" Collapsed="true">
+    <Position X="31.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAQAIAAAAAAAAACAAAAAQAAAAAAAAAAAAAAACAABAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\Steam\SteamOverlayDialogue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample" Collapsed="true">
+    <Position X="45.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAABAAAAAAAgAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Rebinding UI\GamepadIconsExample.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI" Collapsed="true">
+    <Position X="42.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAAAAAQCAYABCgAAGQAAEIAACEQQRIQkJgAAAgC4A=</HashCode>
+      <FileName>Assets\Scripts\UI\Rebinding UI\RebindActionUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.InputSystem.Samples.RebindUI.RebindActionUIEditor" Collapsed="true">
+    <Position X="44" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAECQAAAgAAUEAABAACARgBFAAACAAAEQQAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Rebinding UI\RebindActionUIEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="DuolBots.TempInputMapping" Collapsed="true">
+    <Position X="31.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACEAAACAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\Input\PartInput.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DuolBots.actionInfo" Collapsed="true">
+    <Position X="26.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAABAAAAAAQAAAAAAQAAAAAAAAAAAAAAAAAAAAgBAg=</HashCode>
+      <FileName>Assets\Scripts\Shared\PartScriptableObject.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="botInfo" Collapsed="true">
+    <Position X="28.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAERAAAAiAAAAAAAAAAAAIAAAAACAAAAQgABAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\ControlsUIScene\ControlUIScriptableObjectImplement.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="partBindings" Collapsed="true">
+    <Position X="30" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAQAAIAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\ControlsUIScene\ControlUIScriptableObjectImplement.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="DuolBots.ITeamIndex" Collapsed="true">
+    <Position X="3" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\ITeamIndex.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DuolBots.IMovementModelAnimController" Collapsed="true">
+    <Position X="33.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartShared\Movement\IMovementModelAnimController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DuolBots.IChargeProjectileSpawn" Collapsed="true">
+    <Position X="26.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartShared\ProjectileFireType\ChargingSpawnProjectileFireController\IChargeProjectileSpawn.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DuolBots.IWeaponFireController" Collapsed="true">
+    <Position X="44" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartShared\ProjectileFireType\IWeaponFireController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DuolBots.IController_Movement" Collapsed="true">
+    <Position X="28.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\BasicWheels\IController_Movement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DuolBots.IController_Turret2Axis" Collapsed="true">
+    <Position X="30" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Parts\PartSpecific\Turret2Axis\IController_Turret2Axis.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DuolBots.IImpactHandler" Collapsed="true">
+    <Position X="31.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\HealthAndDamage\IImpactHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DuolBots.IRobotHealth" Collapsed="true">
+    <Position X="0.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAASAQAAAAAAAAAAAAEAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\HealthAndDamage\RobotHealth\IRobotHealth.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DuolBots.IPartInput" Collapsed="true">
+    <Position X="5.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\Input\IPartInput.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DuolBots.IRobotInputController" Collapsed="true">
+    <Position X="42.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\Input\RobotInputController\IRobotInputController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DuolBots.IMovementWeight" Collapsed="true">
+    <Position X="35.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\Movement\IMovementWeight.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DuolBots.IObjectDestroyer" Collapsed="true">
+    <Position X="38.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\ObjectDestroyer\IObjectDestroyer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DuolBots.IObjectSpawner" Collapsed="true">
+    <Position X="40.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\ObjectSpawner\IObjectSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IBehaviour" Collapsed="true">
+    <Position X="3" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Helpers\Unity Interfaces\IBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IComponent" Collapsed="true">
+    <Position X="3" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAEQCAABAAgAQAEABAAQgAAAACAEAA=</HashCode>
+      <FileName>Assets\Scripts\Helpers\Unity Interfaces\IComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IMonoBehaviour" Collapsed="true">
+    <Position X="3" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAgAAAAAACAAAAAEAAIAIAAgBAAgA=</HashCode>
+      <FileName>Assets\Scripts\Helpers\Unity Interfaces\IMonoBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IObject" Collapsed="true">
+    <Position X="3" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAEBAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Helpers\Unity Interfaces\IObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IMyInterface" Collapsed="true">
+    <Position X="37" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StyleGuide.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="DuolBots.eMultiplayerOption" Collapsed="true">
+    <Position X="35.25" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\eMultiplayerOption.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DuolBots.WheelPos" Collapsed="true">
+    <Position X="42.25" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAQAAAAAAAAAAAAAAAABABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Battle\Robot\Movement\WheelPos.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DuolBots.eInputType" Collapsed="true">
+    <Position X="33.5" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAEABJBxAgQBCBgYAAYAAQBEIABBgBCACgAAAAAEAE=</HashCode>
+      <FileName>Assets\Scripts\Shared\Input\eInputType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DuolBots.eActionType" Collapsed="true">
+    <Position X="30" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Shared\PartScriptableObject.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DuolBots.eIconType" Collapsed="true">
+    <Position X="31.75" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAACAAAAEAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Shared\PartScriptableObject.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DuolBots.Mirror.ConnectionChoice" Collapsed="true">
+    <Position X="26.5" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MirrorNetworking\ServerConnectionChoice.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eRotationAxis" Collapsed="true">
+    <Position X="38.75" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Helpers\eRotationAxis.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ePartType" Collapsed="true">
+    <Position X="37" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAgBAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Shared\ePartType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Icons.eSpriteRenderingTypes" Collapsed="true">
+    <Position X="40.5" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ControlsOnBot\ManageWorldOrUI.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Icons.direction" Collapsed="true">
+    <Position X="28.25" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Assets\Scripts\ControlsOnBot\ManageWorldOrUI.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de5b13b472295d54cbbf7c08fe643356, type: 3}
+  m_Name: A6AF9F71-A2F6-4BB9-BE34-7216CFC92952
+  m_EditorClassIdentifier: 
+  objectName: DuolBotsArena
+  id: 1645558152
+  guid: A6AF9F71-A2F6-4BB9-BE34-7216CFC92952

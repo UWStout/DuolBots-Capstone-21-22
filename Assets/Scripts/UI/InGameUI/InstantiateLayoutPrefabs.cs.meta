@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b1ec5293dc4e93e44962d634220462cf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - prefab_partImageSlot: {fileID: 6122539014730788994, guid: 125904271722db44886ca11b26bacf88, type: 3}
+  - prefab_controlImages1: {fileID: 1849067986293475479, guid: c62ef1d2b8736b04ea151f907d7199ed, type: 3}
+  - prefab_controlImages2: {fileID: 5703186446523456834, guid: dcd2bdbdacdaafb488725f7c298a3cc1, type: 3}
+  - vert_LayoutPanel: {instanceID: 0}
+  - horiz_LayoutPanel: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

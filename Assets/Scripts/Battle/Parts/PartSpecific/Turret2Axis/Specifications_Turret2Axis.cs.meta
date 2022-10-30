@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f747efcb13dceae41a842fcbde19707c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_rotateTrans: {instanceID: 0}
+  - m_raiseTrans: {instanceID: 0}
+  - m_beginStateWwiseEventName: {fileID: 11400000, guid: eb5a73899a401544a824b0149e6e50ee, type: 2}
+  - m_stopStateWwiseEventName: {fileID: 11400000, guid: e416c80c1e247c3409f549c8f5932441, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

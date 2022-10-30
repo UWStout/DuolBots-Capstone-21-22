@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6cfa6717e2204f9660786c2d1830e, type: 3}
+  m_Name: WhaleChassis
+  m_EditorClassIdentifier: 
+  m_partName: WH4-13
+  m_partType: 0
+  m_partID: {fileID: 11400000, guid: 6a50008b53f0ea44a84bc839cb77bdb0, type: 2}
+  m_weight: 25
+  m_health: 16
+  m_movementSpeed: 0
+  m_modelPrefab: {fileID: 2691629463053749435, guid: 856fa0282980235459143f01088ad4ea, type: 3}
+  m_battleLocalPrefab: {fileID: 2986331773305647597, guid: 157a166edd7352a449af8e26459af0d7, type: 3}
+  m_battleNetworkPrefab: {fileID: 7273906749420182388, guid: 9bd908e87107a614dab00b03cfe10b0e, type: 3}
+  m_buildUIPrefab: {fileID: 8989472876946751475, guid: 626f0aaa258f2b84ea3b413744b2d779, type: 3}
+  m_buildUIPreviewPrefab: {fileID: 0}
+  m_actionList: []
+  m_partUIData:
+    m_unlockedSprite: {fileID: 2800000, guid: b2629894458567c488c399f6fdbacf23, type: 3}
+    m_lockedSprite: {fileID: 2800000, guid: 62e1ded4661db2a4ca2e4a2bb98058d2, type: 3}
+    m_animationClip: {fileID: 0}

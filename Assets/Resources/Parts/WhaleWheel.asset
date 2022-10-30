@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6cfa6717e2204f9660786c2d1830e, type: 3}
+  m_Name: WhaleWheel
+  m_EditorClassIdentifier: 
+  m_partName: Balloon Wheels
+  m_partType: 1
+  m_partID: {fileID: 11400000, guid: 5003ee8def0cfe34a95a7965f2ddfd3d, type: 2}
+  m_weight: 0
+  m_health: 0
+  m_movementSpeed: 1
+  m_modelPrefab: {fileID: 7805597128632557695, guid: d8e920eed2fb39543ab490351d5b132c, type: 3}
+  m_battleLocalPrefab: {fileID: 9176795614249894255, guid: 73f9a4e0b529ca24faf0b8927c93169e, type: 3}
+  m_battleNetworkPrefab: {fileID: 754294479099179845, guid: 4a265095786cef34c951ea0d9074a001, type: 3}
+  m_buildUIPrefab: {fileID: 4238022097808110365, guid: 166622f5cbee4904ab1f67e833d190d5, type: 3}
+  m_buildUIPreviewPrefab: {fileID: 0}
+  m_actionList:
+  - m_action: Turn Left
+    m_actionType: 1
+    m_IconType: 3
+    m_hasCooldown: 0
+  - m_action: Turn Right
+    m_actionType: 1
+    m_IconType: 3
+    m_hasCooldown: 0
+  m_partUIData:
+    m_unlockedSprite: {fileID: 2800000, guid: 60130978da8dde54290aaf310409cc1a, type: 3}
+    m_lockedSprite: {fileID: 2800000, guid: a9343af075499e14fb27dde9d88a20c5, type: 3}
+    m_animationClip: {fileID: 0}

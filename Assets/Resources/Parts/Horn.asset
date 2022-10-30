@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6cfa6717e2204f9660786c2d1830e, type: 3}
+  m_Name: Horn
+  m_EditorClassIdentifier: 
+  m_partName: Suckleberg
+  m_partType: 2
+  m_partID: {fileID: 11400000, guid: e6b37503311cca546b6b5a8b4fe32ec6, type: 2}
+  m_weight: 3
+  m_health: 3
+  m_movementSpeed: 0
+  m_modelPrefab: {fileID: 911147592175099213, guid: 299c96d8f81cd47429e09387fbd87fa0, type: 3}
+  m_battleLocalPrefab: {fileID: 3353411609257859941, guid: d1ebac1b0a7e14b4a8ea3af11228b6f2, type: 3}
+  m_battleNetworkPrefab: {fileID: 7537972101876681677, guid: 85eadefbf0d560143aeb279e3374f2e5, type: 3}
+  m_buildUIPrefab: {fileID: 1517282644851640555, guid: 1446358f7f07ceb4b8509c684d269277, type: 3}
+  m_buildUIPreviewPrefab: {fileID: 1550035906947437784, guid: c44d4c02817f5134dbaa09e8322a8545, type: 3}
+  m_actionList:
+  - m_action: Rotate
+    m_actionType: 1
+    m_IconType: 1
+    m_hasCooldown: 0
+  - m_action: DUMMY
+    m_actionType: 0
+    m_IconType: 0
+    m_hasCooldown: 0
+  - m_action: Fire
+    m_actionType: 0
+    m_IconType: 0
+    m_hasCooldown: 0
+  m_partUIData:
+    m_unlockedSprite: {fileID: 2800000, guid: 4a73333c313239647bdf87fc8c255249, type: 3}
+    m_lockedSprite: {fileID: 2800000, guid: cf7cc187e3871e345b89e07e60459779, type: 3}
+    m_animationClip: {fileID: 0}

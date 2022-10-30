@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6cfa6717e2204f9660786c2d1830e, type: 3}
+  m_Name: Turret2Axis
+  m_EditorClassIdentifier: 
+  m_partName: Nelson Turret
+  m_partType: 2
+  m_partID: {fileID: 11400000, guid: 6cd9f32771295bc4198367b10127faa8, type: 2}
+  m_weight: 1
+  m_health: 4
+  m_movementSpeed: 0
+  m_modelPrefab: {fileID: 6858206766445456305, guid: 0de8fe3327ff1254b97969e247a4a6b4, type: 3}
+  m_battleLocalPrefab: {fileID: 3099268711066776393, guid: ab6089b08d036c640b5f48aecf8b887c, type: 3}
+  m_battleNetworkPrefab: {fileID: 2186715947829726247, guid: c2a35428ff53e4b408ca3dfb6a98fe63, type: 3}
+  m_buildUIPrefab: {fileID: 4362856359044581764, guid: 4a23c6dbaa56eda4aaa9efb2977cf7a2, type: 3}
+  m_buildUIPreviewPrefab: {fileID: 8370171435882687156, guid: 65352f3dca5a8314c917cfecd42ef0f3, type: 3}
+  m_actionList:
+  - m_action: Rotate
+    m_actionType: 1
+    m_IconType: 1
+    m_hasCooldown: 0
+  - m_action: Raise
+    m_actionType: 1
+    m_IconType: 2
+    m_hasCooldown: 0
+  - m_action: Fire
+    m_actionType: 0
+    m_IconType: 0
+    m_hasCooldown: 1
+  m_partUIData:
+    m_unlockedSprite: {fileID: 2800000, guid: 33dad643bd8cba54db6a818e31b44bd7, type: 3}
+    m_lockedSprite: {fileID: 2800000, guid: f603d563244ee01408afc59b25253c6b, type: 3}
+    m_animationClip: {fileID: 0}

@@ -1,0 +1,798 @@
+fileFormatVersion: 2
+guid: c21c0eb7c461ac243bf3abc2b9c5824c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -158491035754082562
+    second: UI_Keyboard_0
+  - first:
+      213: -4019961787860461751
+    second: UI_Keyboard_1
+  - first:
+      213: -6975528826496472169
+    second: UI_Keyboard_2
+  - first:
+      213: -3293984583064718385
+    second: UI_Keyboard_3
+  - first:
+      213: 675141454517243887
+    second: UI_Keyboard_4
+  - first:
+      213: -8660791031797395684
+    second: UI_Keyboard_5
+  - first:
+      213: -4144919803431748983
+    second: UI_Keyboard_6
+  - first:
+      213: -5642154732173248790
+    second: UI_Keyboard_7
+  - first:
+      213: -1328574022138730359
+    second: UI_Keyboard_8
+  - first:
+      213: -8974945033994727004
+    second: UI_Keyboard_9
+  - first:
+      213: 3562206597524683930
+    second: UI_Keyboard_10
+  - first:
+      213: -3973190104418343319
+    second: UI_Keyboard_11
+  - first:
+      213: -3720986651987349968
+    second: UI_Keyboard_12
+  - first:
+      213: -6512867694932226098
+    second: UI_Keyboard_13
+  - first:
+      213: -514477332569560239
+    second: UI_Keyboard_14
+  - first:
+      213: -7725038604596869892
+    second: UI_Keyboard_15
+  - first:
+      213: 2059691483370871846
+    second: UI_Keyboard_16
+  - first:
+      213: 7546087075816390659
+    second: UI_Keyboard_17
+  - first:
+      213: -679669185918636033
+    second: UI_Keyboard_18
+  - first:
+      213: 1490137336013949239
+    second: UI_Keyboard_19
+  - first:
+      213: -1012669291847198028
+    second: UI_Keyboard_20
+  - first:
+      213: -7037227381904121723
+    second: UI_Keyboard_21
+  - first:
+      213: 6747192475094473836
+    second: UI_Keyboard_22
+  - first:
+      213: -2701721968134323244
+    second: UI_Keyboard_24
+  - first:
+      213: 882247924255376417
+    second: UI_Keyboard_26
+  - first:
+      213: -8933468941704827408
+    second: UI_KeyboardTMP_L
+  - first:
+      213: 8439181616348458946
+    second: UI_KeyboardTMP_Up
+  - first:
+      213: -1322122874121214196
+    second: UI_KeyboardTMP_Q
+  - first:
+      213: -2355864475586224315
+    second: UI_KeyboardTMP_A
+  - first:
+      213: 1919977837583657837
+    second: UI_KeyboardTMP_Space
+  - first:
+      213: 5602685477890146476
+    second: UI_KeyboardTMP_X
+  - first:
+      213: -5048908598586614843
+    second: UI_KeyboardTMP_Right
+  - first:
+      213: 2226455687846661123
+    second: UI_KeyboardTMP_E
+  - first:
+      213: 2136968027715260325
+    second: UI_KeyboardTMP_D
+  - first:
+      213: -8285029538322459442
+    second: UI_KeyboardTMP_9
+  - first:
+      213: -3927561216963709344
+    second: UI_KeyboardTMP_LMB
+  - first:
+      213: 7098942370410158074
+    second: UI_KeyboardTMP_KeyAction
+  - first:
+      213: -3839770017002018114
+    second: UI_KeyboardTMP_K
+  - first:
+      213: -7587215967168132345
+    second: UI_KeyboardTMP_Left
+  - first:
+      213: 2342705416053677725
+    second: UI_KeyboardTMP_W
+  - first:
+      213: 3599670102097929687
+    second: UI_KeyboardTMP_Backspace
+  - first:
+      213: -7880236581013383649
+    second: UI_KeyboardTMP_RMB
+  - first:
+      213: 5549638096643228206
+    second: UI_KeyboardTMP_Rotate
+  - first:
+      213: 2149895106638000642
+    second: UI_KeyboardTMP_I
+  - first:
+      213: 8449790243860899068
+    second: UI_KeyboardTMP_Down
+  - first:
+      213: 4102702936453474881
+    second: UI_KeyboardTMP_S
+  - first:
+      213: 3400237400186634724
+    second: UI_KeyboardTMP_Enter
+  - first:
+      213: -1722913609912701141
+    second: UI_KeyboardTMP_RotateWide
+  - first:
+      213: 8460372874536993305
+    second: UI_KeyboardTMP_KeyActionWide
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_L
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1813
+        width: 171
+        height: 175
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fde2bd3451f50480800000000000000
+      internalID: -8933468941704827408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_Up
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1812
+        width: 171
+        height: 175
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfe475a7fefd1570800000000000000
+      internalID: 8439181616348458946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_Q
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1812
+        width: 170
+        height: 175
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07269a3040e6ade0800000000000000
+      internalID: -1322122874121214196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_A
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1812
+        width: 170
+        height: 175
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f98b9cdb94e4fd0800000000000000
+      internalID: -2355864475586224315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_Space
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1811
+        width: 346
+        height: 175
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bebc9bba125aa10800000000000000
+      internalID: 1919977837583657837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_X
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1387
+        width: 170
+        height: 175
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0c1e102ccb0cd40800000000000000
+      internalID: 5602685477890146476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_Right
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1386
+        width: 170
+        height: 175
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb54dd316caee9b0800000000000000
+      internalID: -5048908598586614843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_E
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1386
+        width: 170
+        height: 175
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c8f3ed6a5f5ee10800000000000000
+      internalID: 2226455687846661123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_D
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 1386
+        width: 171
+        height: 175
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afc55c591908ad10800000000000000
+      internalID: 2136968027715260325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_LMB
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1290
+        width: 191
+        height: 302
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066f64dd1ef7e79c0800000000000000
+      internalID: -3927561216963709344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_KeyAction
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1253
+        width: 426
+        height: 428
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7544d5972848260800000000000000
+      internalID: 7098942370410158074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_K
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 966
+        width: 170
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba2665738566bac0800000000000000
+      internalID: -3839770017002018114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_Left
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 965
+        width: 170
+        height: 175
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b85c2d64bc4b690800000000000000
+      internalID: -7587215967168132345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_W
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 965
+        width: 170
+        height: 175
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e5349e926f28020800000000000000
+      internalID: 2342705416053677725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_Backspace
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 965
+        width: 346
+        height: 175
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d52420d2e894f130800000000000000
+      internalID: 3599670102097929687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_RMB
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 855
+        width: 191
+        height: 302
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1698a2b496c3a290800000000000000
+      internalID: -7880236581013383649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_Rotate
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 704
+        width: 374
+        height: 432
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2205661276440d40800000000000000
+      internalID: 5549638096643228206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_I
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 539
+        width: 171
+        height: 175
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20232877536f5dd10800000000000000
+      internalID: 2149895106638000642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_Down
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 539
+        width: 170
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4e3e7357fa34570800000000000000
+      internalID: 8449790243860899068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_S
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 539
+        width: 170
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ae24a659abfe830800000000000000
+      internalID: 4102702936453474881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_Enter
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 539
+        width: 348
+        height: 174
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e14f1676e1103f20800000000000000
+      internalID: 3400237400186634724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_RotateWide
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 112
+        width: 641
+        height: 307
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fa77e333bf618e0800000000000000
+      internalID: -1722913609912701141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_KeyboardTMP_KeyActionWide
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 86
+        width: 564
+        height: 370
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912c02eed48496570800000000000000
+      internalID: 8460372874536993305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f4aa2c9716938e345b43862955d61e58
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6cfa6717e2204f9660786c2d1830e, type: 3}
+  m_Name: Axe
+  m_EditorClassIdentifier: 
+  m_partName: Axe-Inator
+  m_partType: 2
+  m_partID: {fileID: 11400000, guid: 1d3b8a51b554d8440b17b0857e6ab389, type: 2}
+  m_weight: 3
+  m_health: 5
+  m_movementSpeed: 0
+  m_modelPrefab: {fileID: 4424503889346136266, guid: bfbb46f10c30ecf4789b52feef383944, type: 3}
+  m_battleLocalPrefab: {fileID: 396056404215587077, guid: 969d5c6af470f0c4fa5c5595e9d90e89, type: 3}
+  m_battleNetworkPrefab: {fileID: 636937152252997095, guid: ec9d0fce32ed3e64a92379b0aa20918d, type: 3}
+  m_buildUIPrefab: {fileID: 4044623451133452284, guid: 6bdbfc1290c3d0c40884944a134e5f63, type: 3}
+  m_buildUIPreviewPrefab: {fileID: 7532302152995447816, guid: ae5acda4aa700b84184b3911cde9e1eb, type: 3}
+  m_actionList:
+  - m_action: Rotate
+    m_actionType: 1
+    m_IconType: 1
+    m_hasCooldown: 0
+  - m_action: DUMMY
+    m_actionType: 0
+    m_IconType: 0
+    m_hasCooldown: 0
+  - m_action: Charge
+    m_actionType: 0
+    m_IconType: 0
+    m_hasCooldown: 0
+  m_partUIData:
+    m_unlockedSprite: {fileID: 2800000, guid: 7bc1b15a86ad3ae4e99335a127d5a07f, type: 3}
+    m_lockedSprite: {fileID: 2800000, guid: 3dfd0786627f4fb41a4608d497b530c2, type: 3}
+    m_animationClip: {fileID: 0}

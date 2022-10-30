@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6cfa6717e2204f9660786c2d1830e, type: 3}
+  m_Name: BubbleBlaster
+  m_EditorClassIdentifier: 
+  m_partName: Bubble Blower
+  m_partType: 2
+  m_partID: {fileID: 11400000, guid: d07cdf6380f58a344a7f232685adff68, type: 2}
+  m_weight: 3
+  m_health: 5
+  m_movementSpeed: 0
+  m_modelPrefab: {fileID: 6319350860266263386, guid: c96ff7da9f907924b8a6e122dcb0bfd7, type: 3}
+  m_battleLocalPrefab: {fileID: 5089464946113528542, guid: d88d3e827604b824ba49f08d6e3b51c7, type: 3}
+  m_battleNetworkPrefab: {fileID: 3832694735984635674, guid: 1630578fd90836047ac02f8ff0fd348c, type: 3}
+  m_buildUIPrefab: {fileID: 2232846932647572752, guid: 11d634aedcb120e4f870ce5c9d05f0ac, type: 3}
+  m_buildUIPreviewPrefab: {fileID: 6581948609665097320, guid: 9d0386dacb4d59b47b857c3f8db7c476, type: 3}
+  m_actionList:
+  - m_action: Rotate
+    m_actionType: 1
+    m_IconType: 1
+    m_hasCooldown: 0
+  - m_action: Raise
+    m_actionType: 1
+    m_IconType: 2
+    m_hasCooldown: 0
+  - m_action: Fire
+    m_actionType: 0
+    m_IconType: 0
+    m_hasCooldown: 0
+  m_partUIData:
+    m_unlockedSprite: {fileID: 2800000, guid: 1f7f1ee32b055c54386213fe6c9166b5, type: 3}
+    m_lockedSprite: {fileID: 2800000, guid: 890446a61f629494a9b2b68b7d50ac4b, type: 3}
+    m_animationClip: {fileID: 0}

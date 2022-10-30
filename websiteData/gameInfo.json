@@ -1,0 +1,26 @@
+{
+  "key": "duolBots",
+  "courseID": "Berrier / duolBots Dev",
+  "title": "Duol Bots",
+  "engine": "Unity",
+  "engineVersion": "2020.3.19",
+  "buildPlatforms": ["win64", "macOS"],
+  "descriptionMarkdownURI": "websiteData/description.md",
+  "pageExtras": [
+    { "key": "instructions", "title": "How to Play", "markdownURI": "websiteData/instructions.md" },
+    { "key": "requirements", "title": "Hardware Requirements", "markdownURI": "websiteData/requirements.md" }
+  ],
+  "socialLinks": [
+    { "title": "Web Site", "href": "" },
+    { "title": "Facebook", "href": "" },
+    { "title": "Twitter", "href": "" },
+    { "title": "Instagram", "href": "" },
+    { "title": "Snapchat", "href": "" }
+  ],
+  "repo": {
+    "type": "svn",
+    "viewURI": "https://revision.mscs.uwstout.edu/svn/duolBots450/",
+    "cloneURI": "svn://10.26.0.27/svn/duolBots450/trunk",
+    "evolutionVideo": ""
+  }
+}

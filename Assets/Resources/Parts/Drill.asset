@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6cfa6717e2204f9660786c2d1830e, type: 3}
+  m_Name: Drill
+  m_EditorClassIdentifier: 
+  m_partName: Horn of the Narwal
+  m_partType: 2
+  m_partID: {fileID: 11400000, guid: dcea0afc1c255584aafb90859cbcc63d, type: 2}
+  m_weight: 2
+  m_health: 4
+  m_movementSpeed: 0
+  m_modelPrefab: {fileID: 3409423357292681474, guid: ccb348c89413d754c84cc8d24196cf76, type: 3}
+  m_battleLocalPrefab: {fileID: 1510888999076529760, guid: 16210ba3ef9812a429e75a8c39629795, type: 3}
+  m_battleNetworkPrefab: {fileID: 3641800036238631219, guid: 9267033339ca2604583b41ca275bf78d, type: 3}
+  m_buildUIPrefab: {fileID: 2898568815085751628, guid: 626f53c081bb08241afe2a162472868b, type: 3}
+  m_buildUIPreviewPrefab: {fileID: 8996930161555092617, guid: a1d7faeb94929994db6ff99ddd37f663, type: 3}
+  m_actionList:
+  - m_action: DUMMY
+    m_actionType: 0
+    m_IconType: 0
+    m_hasCooldown: 0
+  - m_action: DUMMY
+    m_actionType: 0
+    m_IconType: 0
+    m_hasCooldown: 0
+  - m_action: Spin
+    m_actionType: 0
+    m_IconType: 1
+    m_hasCooldown: 1
+  - m_action: Jab
+    m_actionType: 0
+    m_IconType: 0
+    m_hasCooldown: 1
+  m_partUIData:
+    m_unlockedSprite: {fileID: 2800000, guid: 4c423605ea7bd9f44b068564d433f2a5, type: 3}
+    m_lockedSprite: {fileID: 2800000, guid: eb87cf38c848d37439096b801faeb9b2, type: 3}
+    m_animationClip: {fileID: 0}

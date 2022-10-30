@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6cfa6717e2204f9660786c2d1830e, type: 3}
+  m_Name: Bomber
+  m_EditorClassIdentifier: 
+  m_partName: Greg
+  m_partType: 2
+  m_partID: {fileID: 11400000, guid: a199b5a5bb2e6eb45a34e06b3541be93, type: 2}
+  m_weight: 4
+  m_health: 4
+  m_movementSpeed: 0
+  m_modelPrefab: {fileID: 296851939749858294, guid: 5cb968101428b6e4fb83d3d027e53aa6, type: 3}
+  m_battleLocalPrefab: {fileID: 9065566903123794245, guid: c622d5c33c9db6047bb6d3bb4ac06b09, type: 3}
+  m_battleNetworkPrefab: {fileID: 7958620161883392363, guid: 2ce53e177eccff643b7db8867e687d1f, type: 3}
+  m_buildUIPrefab: {fileID: 2091643311381579642, guid: 30d180dace6ca814686ff298ac94cad2, type: 3}
+  m_buildUIPreviewPrefab: {fileID: 5545405644988615059, guid: a7c2755ff0124ed468343da44bc92169, type: 3}
+  m_actionList:
+  - m_action: Rotate
+    m_actionType: 1
+    m_IconType: 1
+    m_hasCooldown: 0
+  - m_action: Raise
+    m_actionType: 1
+    m_IconType: 2
+    m_hasCooldown: 0
+  - m_action: Charge
+    m_actionType: 0
+    m_IconType: 0
+    m_hasCooldown: 0
+  m_partUIData:
+    m_unlockedSprite: {fileID: 2800000, guid: 7f52c644dcd225a4a8581f1effb2339a, type: 3}
+    m_lockedSprite: {fileID: 2800000, guid: e132ee3938930624685df6a611ea312c, type: 3}
+    m_animationClip: {fileID: 0}

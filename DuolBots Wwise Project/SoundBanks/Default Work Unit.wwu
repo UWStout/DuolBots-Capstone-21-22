@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2C3BA629-5504-4D2E-B712-55C57A2A4517}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{2C3BA629-5504-4D2E-B712-55C57A2A4517}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="DuolBotsMain" ID="{5F46BA48-B82F-4BCA-B5E6-5F9171641722}">
+					<ObjectInclusionList>
+						<ObjectRef Name="mx_title" ID="{56FC2D2C-F598-4317-81F7-CDFA11F80818}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="mx_stop_all" ID="{83C319B0-FC9F-44CB-A867-4A9684AFB446}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="DuolBotsMenu" ID="{61810A87-4809-4FFE-8613-460CF55CF79F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="mx_stop_all" ID="{83C319B0-FC9F-44CB-A867-4A9684AFB446}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="mx_menu" ID="{709C2BD9-532B-44CC-8C98-0D17448812B3}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="DuolBotsArena" ID="{A6AF9F71-A2F6-4BB9-BE34-7216CFC92952}">
+					<ObjectInclusionList>
+						<ObjectRef Name="mx_stop_all" ID="{83C319B0-FC9F-44CB-A867-4A9684AFB446}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Arena" ID="{F0C6FF97-0B72-46C4-A515-8C611391284D}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="DuolBotsSFX" ID="{7AA8B33C-6AAB-4462-A3B3-65B47AD00A0B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="SFX" ID="{1A88A4B3-4ED2-47A9-BD2B-BB26B4D1BE70}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

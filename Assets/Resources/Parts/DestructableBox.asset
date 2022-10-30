@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6cfa6717e2204f9660786c2d1830e, type: 3}
+  m_Name: DestructableBox
+  m_EditorClassIdentifier: 
+  m_partName: DestructableBox
+  m_partType: 4
+  m_partID: {fileID: 11400000, guid: 66a0047dd4b4dea47b74cdbfcb399834, type: 2}
+  m_weight: 1
+  m_health: 1
+  m_movementSpeed: 0
+  m_modelPrefab: {fileID: 60527189389536150, guid: 289bbd14da2cd884b81e5a55ad0b0722, type: 3}
+  m_battleLocalPrefab: {fileID: 60527189389536150, guid: 289bbd14da2cd884b81e5a55ad0b0722, type: 3}
+  m_battleNetworkPrefab: {fileID: 3811196539902160536, guid: 9943efdc85d9bf94582e254cb58e6bf1, type: 3}
+  m_actionList: []
+  m_partUIData:
+    m_unlockedSprite: {fileID: 0}
+    m_lockedSprite: {fileID: 0}
+    m_animationClip: {fileID: 0}

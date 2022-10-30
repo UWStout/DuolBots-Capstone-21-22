@@ -1,0 +1,21 @@
+Event	ID	Name			Wwise Object Path	Notes
+	667367514	mx_arena			\Default Work Unit\MX\Arena\mx_arena	
+	3444228422	mx_lose			\Default Work Unit\MX\Arena\mx_lose	
+	3867905721	mx_stop_all			\Default Work Unit\MX\mx_stop_all	
+	4061649853	mx_win			\Default Work Unit\MX\Arena\mx_win	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	633746153	Arena_Results			\Default Work Unit\Arena_Results	
+
+State	ID	Name	State Group			Notes
+	221232726	Lose	Arena_Results			
+	748895195	None	Arena_Results			
+	979765101	Win	Arena_Results			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	132058402	Win_Transition_Segment	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\Win_Transition_Segment_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\mx_arena_switch_container\Win_Transition_Segment\Win_Transition_Segment		1152144
+	562263839	Arena_Theme_Master_172bpm	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\Arena_Theme_Master_172bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\mx_arena_switch_container\mx_arena_playlist\Arena_Theme_Master_172bpm\Arena_Theme_Master_172bpm		58404072
+	757123611	Lose_Loop_140bpm	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\Lose_Loop_140bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\mx_arena_switch_container\mx_lose_playlist\Lose_Loop_140bpm\Lose_Loop_140bpm		2633288
+	929372110	Win_Loop_Master_140bpm	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\Win_Loop_Master_140bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\mx_arena_switch_container\mx_win_playlist\Win_Loop_Master_140bpm\Win_Loop_Master_140bpm		2633288
+	1013278474	Lose_Transition_Segment	D:\Unity Projects (Local)\GDDClassProjects\GDD450\DuolBots-SVN\DuolBots Wwise Project\.cache\Windows\SFX\Lose_Transition_Segment_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\mx_arena_switch_container\Lose_Transition_Segment\Lose_Transition_Segment		658432
+

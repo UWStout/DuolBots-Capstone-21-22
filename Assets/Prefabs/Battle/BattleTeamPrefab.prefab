@@ -1,0 +1,532 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6462038578356169096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8135359835286981254}
+  - component: {fileID: 2206123539183409557}
+  - component: {fileID: 6269050635535534376}
+  - component: {fileID: 8063133115227951059}
+  - component: {fileID: 7525767318384724891}
+  - component: {fileID: 6198854216891962746}
+  - component: {fileID: 1700555518744246884}
+  - component: {fileID: 2408747426276173517}
+  m_Layer: 0
+  m_Name: BattleTeamPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8135359835286981254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6462038578356169096}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5486632236116447933}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2206123539183409557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6462038578356169096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  serverOnly: 0
+  visible: 0
+  m_AssetId: c9e69055912ca76468e2dad032fab398
+  hasSpawned: 0
+--- !u!114 &6269050635535534376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6462038578356169096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d325babb6e871d4b8912b90cb8b2d3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+--- !u!114 &8063133115227951059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6462038578356169096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dda43f9ee2eedd49b0fd5a90ace61f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  m_playerInputPrefab: {fileID: 6236408855637485504, guid: 6ebd5fb529f88bf469646302886392ce, type: 3}
+--- !u!114 &7525767318384724891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6462038578356169096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3190c70185090a940b1d7ce3ed979f6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+--- !u!114 &6198854216891962746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6462038578356169096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df3f0c575252e2249943a1fcc0532470, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  m_sharedController: {fileID: 1603344083697674948}
+--- !u!114 &1700555518744246884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6462038578356169096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0591fc8a48b909d4fbf8a2652292ef6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  m_mainMenuSceneName: NewMainMenu
+  m_hostJoinSceneName: Battle_HostJoin_SCENE
+  m_playerInputTag: PlayerInput
+  m_rematchTextMesh: {fileID: 6096548970372743842}
+  m_baseMyRequestText: Your team has requested a rematch
+  m_baseOtherRequestText: Another team has requested a rematch
+--- !u!114 &2408747426276173517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6462038578356169096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95b4ba3fbf8bda64fa7e5231c585f12e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_eventList:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1700555518744246884}
+        m_TargetAssemblyTypeName: DuolBots.Mirror.GameOverScreen, DuolBots
+        m_MethodName: OnHostJoinButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1700555518744246884}
+        m_TargetAssemblyTypeName: DuolBots.Mirror.GameOverScreen, DuolBots
+        m_MethodName: OnMainMenuButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1001 &7960307745737864039
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8135359835286981254}
+    m_Modifications:
+    - target: {fileID: 516109719853754937, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_Name
+      value: GameOverCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070018986711888383, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070018986711888383, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070018986711888383, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2408747426276173517}
+    - target: {fileID: 2070018986711888383, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070018986711888383, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: InvokeEvents
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070018986711888383, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DuolBots.Mirror.LoadOnlineScene, DuolBots
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070018986711888383, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070018986711888383, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476099408791560666, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476099408791560666, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476099408791560666, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476099408791560666, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476099408791560666, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476099408791560666, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476099408791560666, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476099408791560666, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476099408791560666, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476099408791560666, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476099408791560666, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476099408791560666, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476099408791560666, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476099408791560666, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476099408791560666, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476099408791560666, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476099408791560666, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476099408791560666, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476099408791560666, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476099408791560666, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476099408791560666, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3312565785911677587, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3312565785911677587, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3312565785911677587, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2408747426276173517}
+    - target: {fileID: 3312565785911677587, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3312565785911677587, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: InvokeEvents
+      objectReference: {fileID: 0}
+    - target: {fileID: 3312565785911677587, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DuolBots.Mirror.LoadOnlineScene, DuolBots
+      objectReference: {fileID: 0}
+    - target: {fileID: 3312565785911677587, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3312565785911677587, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3695636068759938086, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3695636068759938086, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3695636068759938086, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1700555518744246884}
+    - target: {fileID: 3695636068759938086, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3695636068759938086, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnRematchButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 3695636068759938086, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DuolBots.Mirror.GameOverScreen, DuolBots
+      objectReference: {fileID: 0}
+    - target: {fileID: 3695636068759938086, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402576497532065977, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402576497532065977, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402576497532065977, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1700555518744246884}
+    - target: {fileID: 5402576497532065977, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402576497532065977, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnQuitButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402576497532065977, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DuolBots.Mirror.GameOverScreen, DuolBots
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402576497532065977, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5651647110482137533, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5651647110482137533, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5651647110482137533, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1700555518744246884}
+    - target: {fileID: 5651647110482137533, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5651647110482137533, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnRematchButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 5651647110482137533, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DuolBots.Mirror.GameOverScreen, DuolBots
+      objectReference: {fileID: 0}
+    - target: {fileID: 5651647110482137533, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828261262442746164, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828261262442746164, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828261262442746164, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1700555518744246884}
+    - target: {fileID: 6828261262442746164, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828261262442746164, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnQuitButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828261262442746164, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DuolBots.Mirror.GameOverScreen, DuolBots
+      objectReference: {fileID: 0}
+    - target: {fileID: 6828261262442746164, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8778974484050012117, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8778974484050012117, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8778974484050012117, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2408747426276173517}
+    - target: {fileID: 8778974484050012117, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8778974484050012117, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: InvokeEvents
+      objectReference: {fileID: 0}
+    - target: {fileID: 8778974484050012117, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DuolBots.Mirror.LoadOnlineScene, DuolBots
+      objectReference: {fileID: 0}
+    - target: {fileID: 8778974484050012117, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8962362356187767206, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8962362356187767206, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8962362356187767206, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2408747426276173517}
+    - target: {fileID: 8962362356187767206, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8962362356187767206, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: InvokeEvents
+      objectReference: {fileID: 0}
+    - target: {fileID: 8962362356187767206, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DuolBots.Mirror.LoadOnlineScene, DuolBots
+      objectReference: {fileID: 0}
+    - target: {fileID: 8962362356187767206, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+--- !u!224 &5486632236116447933 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2476099408791560666, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+  m_PrefabInstance: {fileID: 7960307745737864039}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1603344083697674948 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8662824838982326691, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+  m_PrefabInstance: {fileID: 7960307745737864039}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e2efe0d2db89854c83d8c4bf7ccdfed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6096548970372743842 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4243511546772828613, guid: a2a8684cba29f2845bd242b4d8af4ce7, type: 3}
+  m_PrefabInstance: {fileID: 7960307745737864039}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

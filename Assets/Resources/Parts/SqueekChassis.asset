@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6cfa6717e2204f9660786c2d1830e, type: 3}
+  m_Name: SqueekChassis
+  m_EditorClassIdentifier: 
+  m_partName: 5Q-33K
+  m_partType: 0
+  m_partID: {fileID: 11400000, guid: 93e2305dc46ed364882fe405f02a4e33, type: 2}
+  m_weight: 10
+  m_health: 12
+  m_movementSpeed: 0
+  m_modelPrefab: {fileID: 3837700287790924199, guid: fd5047627aa9f4f4d961978ad40aa0e8, type: 3}
+  m_battleLocalPrefab: {fileID: 6484264918144345247, guid: 969d879a93faf6948879df72e7189c96, type: 3}
+  m_battleNetworkPrefab: {fileID: 959466767536958795, guid: d16c464efcb4b854db91501b3668f61b, type: 3}
+  m_buildUIPrefab: {fileID: 6413988538295989650, guid: 89de405dd3c119649bb8d0dea5dbb198, type: 3}
+  m_buildUIPreviewPrefab: {fileID: 0}
+  m_actionList: []
+  m_partUIData:
+    m_unlockedSprite: {fileID: 2800000, guid: 2387abd486eb3184fab0e90aee9d06f8, type: 3}
+    m_lockedSprite: {fileID: 2800000, guid: 65003abbdb96dde48a6b6400ac9d6ad3, type: 3}
+    m_animationClip: {fileID: 0}

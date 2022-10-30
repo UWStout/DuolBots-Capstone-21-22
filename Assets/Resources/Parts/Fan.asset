@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6cfa6717e2204f9660786c2d1830e, type: 3}
+  m_Name: Fan
+  m_EditorClassIdentifier: 
+  m_partName: Pinkle's Wand
+  m_partType: 3
+  m_partID: {fileID: 11400000, guid: 627dc1e0f769ab64aa94f05753c64593, type: 2}
+  m_weight: 2
+  m_health: 3
+  m_movementSpeed: 0
+  m_modelPrefab: {fileID: 7065165273967559366, guid: 6fbe11220e324674f9109e8336815368, type: 3}
+  m_battleLocalPrefab: {fileID: 127146581136157217, guid: 1384ae8575c21b1498fad86c3735896e, type: 3}
+  m_battleNetworkPrefab: {fileID: 2692831057793206702, guid: 9cf46ac3fcb52c9449587c27ab578780, type: 3}
+  m_buildUIPrefab: {fileID: 6043886070155792177, guid: c1d44fd079892234aa8b05d838e3053c, type: 3}
+  m_buildUIPreviewPrefab: {fileID: 6048826844581883050, guid: 438972e216614654e85e82e7ecc82032, type: 3}
+  m_actionList:
+  - m_action: Rotate
+    m_actionType: 1
+    m_IconType: 1
+    m_hasCooldown: 0
+  - m_action: Raise
+    m_actionType: 1
+    m_IconType: 2
+    m_hasCooldown: 0
+  - m_action: Blow
+    m_actionType: 0
+    m_IconType: 0
+    m_hasCooldown: 0
+  m_partUIData:
+    m_unlockedSprite: {fileID: 2800000, guid: c6351a7d8ce7a4b4188b3905eca6c837, type: 3}
+    m_lockedSprite: {fileID: 2800000, guid: 03341a486ecd9b14f87d765a23bce915, type: 3}
+    m_animationClip: {fileID: 0}

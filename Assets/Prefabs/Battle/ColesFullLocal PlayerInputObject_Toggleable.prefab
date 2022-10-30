@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6804671134018721700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713663655219900088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9ce7834737170940bd2f4cc483fd212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_eventSystem: {fileID: 0}
+--- !u!1001 &2191429517384680918
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 694026629430913896, guid: b9286923633d49e44b0b7a1da789d296, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 694026629430913896, guid: b9286923633d49e44b0b7a1da789d296, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 694026629430913896, guid: b9286923633d49e44b0b7a1da789d296, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 694026629430913896, guid: b9286923633d49e44b0b7a1da789d296, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 694026629430913896, guid: b9286923633d49e44b0b7a1da789d296, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 694026629430913896, guid: b9286923633d49e44b0b7a1da789d296, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 694026629430913896, guid: b9286923633d49e44b0b7a1da789d296, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 694026629430913896, guid: b9286923633d49e44b0b7a1da789d296, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 694026629430913896, guid: b9286923633d49e44b0b7a1da789d296, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 694026629430913896, guid: b9286923633d49e44b0b7a1da789d296, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 694026629430913896, guid: b9286923633d49e44b0b7a1da789d296, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 694026629430913897, guid: b9286923633d49e44b0b7a1da789d296, type: 3}
+      propertyPath: m_FindRobotAtTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 694026629430913897, guid: b9286923633d49e44b0b7a1da789d296, type: 3}
+      propertyPath: m_findRobotAtTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 694026629430913897, guid: b9286923633d49e44b0b7a1da789d296, type: 3}
+      propertyPath: m_findBotTimeOption
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 694026629430913902, guid: b9286923633d49e44b0b7a1da789d296, type: 3}
+      propertyPath: m_Name
+      value: FullLocal PlayerInputObject_Toggleable
+      objectReference: {fileID: 0}
+    - target: {fileID: 694026629430913903, guid: b9286923633d49e44b0b7a1da789d296, type: 3}
+      propertyPath: m_Actions
+      value: 
+      objectReference: {fileID: -944628639613478452, guid: 43c02d9ffa78dba4ca259867ef9b53eb, type: 3}
+    - target: {fileID: 694026629430913903, guid: b9286923633d49e44b0b7a1da789d296, type: 3}
+      propertyPath: m_DefaultActionMap
+      value: ff85cdf7-5f7d-45ec-a4db-8145c169a5ab
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b9286923633d49e44b0b7a1da789d296, type: 3}
+--- !u!1 &1713663655219900088 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 694026629430913902, guid: b9286923633d49e44b0b7a1da789d296, type: 3}
+  m_PrefabInstance: {fileID: 2191429517384680918}
+  m_PrefabAsset: {fileID: 0}

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CircleWipe_LoadingScreen_ANIM_CONT
+  m_Controller: {fileID: 9100000, guid: bc4382ed4a42a424dbf537f21ef6b5ab, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 76175549c4b92f6468bc4baed23c19c7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a68e7155531994e4291de4cd8f07ca77, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f14579eda91ad404b96e0c397ce84ae2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d95baa6eff998e24f832b0a214458077, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b2d3d5b0b7f9c02408da9c96144a86b2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d30ac6771d05b714eb95fab83811a588, type: 2}

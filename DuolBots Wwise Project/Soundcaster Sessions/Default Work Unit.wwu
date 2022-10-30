@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8D11D02A-BCCE-4927-A969-14E2491972D0}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{8D11D02A-BCCE-4927-A969-14E2491972D0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Duolbots Testing" ID="{2D7B2E45-8101-4D3D-8BE6-BC47F7234E66}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="sfx_rotate" ID="{B74088A7-31BE-4F4E-BA1F-7C5E8430C1B8}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_drill" ID="{AA74E084-6B25-4315-9419-A18FADDA0313}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_bomber" ID="{F7D98758-999B-4EF0-AAE3-24CF947D6424}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_mech_steps" ID="{AD0B7D3D-5350-47B5-B947-126945CC3D8C}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_horn_charge" ID="{B13BDA19-3822-48D0-B7A0-D2B63D91FEDB}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_lturret_charge" ID="{1416E06E-1E92-47C3-BB7E-631529DAD4E4}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_bubble_creation" ID="{FB27741E-92A4-473D-BFAC-278F08E41FEE}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="0" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_axe_tension" ID="{74EA5F1F-3228-4B6F-BC4D-AAB9E32504BE}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="0" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_fan_spin" ID="{F0C28D80-DC36-455D-8EE6-01BB97F55EAB}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="0" Y="8"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_paint_explode" ID="{7DECB6A6-1BD1-4551-AFEE-462BFF17E076}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="0" Y="9"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_oil_spew" ID="{BC85D7AC-0C66-4DE1-8254-D0CFA0B9D7C8}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="0" Y="10"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_broken_part" ID="{086AC818-EBAE-4FAF-B4E1-451008D6858B}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="0" Y="11"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_hit_confirm" ID="{145E32B6-C044-4B5F-82DF-30952026330A}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="0" Y="12"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_collision" ID="{047B2189-6298-468B-8178-79B246057665}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="0" Y="13"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_extend" ID="{7C04D9D0-9CB1-4766-8316-4E8B490C924E}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="0" Y="14"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_hand_crush" ID="{012CC32E-4BDA-4E87-A238-BD78EEE1CF71}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="0" Y="15"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_industrial_light" ID="{D8552614-C6AD-4B5A-8150-C4BC860CDE6D}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="0" Y="16"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_shoot" ID="{2A14104E-A3E4-480F-AAA3-05CB7CF1F415}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="0" Y="17"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_rotate_release" ID="{B38AABCF-2BAE-4253-883B-95B6FFB47A9C}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_drill_material" ID="{F35E2334-4AC5-483B-AFCB-CAC30EC2E11C}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_bomber_pause" ID="{E92945EB-B5E5-484C-9102-69707E444323}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_horn_pause" ID="{1F157F87-FA92-4D5D-AEC3-BD11143F457E}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_lturret_pause" ID="{34387F12-A1EE-4650-A973-BEACF1071702}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="1" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_bubble_pop" ID="{AFEF3FDC-E6D0-4CDC-89D7-20F83A3B559C}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="1" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_axe_swing" ID="{31EB727D-AA21-4D58-89DB-49FD0794E7BB}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="1" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_fan_stop" ID="{4C8E358F-D468-4F54-80C6-C57F93BB68F0}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="1" Y="8"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_oil_stop" ID="{FE13A454-D751-42C1-8BAB-D310FA0A8DF3}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="1" Y="10"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_extend_release" ID="{9CF1FC37-C7DB-4F37-B74C-6F0112EA5066}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="1" Y="14"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_menu_move" ID="{629E5464-E6C3-4510-9E7E-2E62EE370D94}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="1" Y="15"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_plugin" ID="{810C3D71-C1FC-4205-8A3F-C481322916A9}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="1" Y="16"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_drill_material_stop" ID="{EBF66BE4-7884-40B5-966E-D3732BDA3F76}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_bomber_resume" ID="{6EFC79E5-ECD2-4BBE-B73F-85FF693FB447}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_horn_resume" ID="{6D434579-C8FC-4DAE-A834-73CD38AAA715}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_lturret_resume" ID="{E22C6A88-BC98-4C3C-92BA-B710B4D5C3C4}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="2" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_axe_tension_pause" ID="{45BD4E3F-4922-49F7-AC61-CDBF57216FE3}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="2" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="mx_arena" ID="{69B58727-5FC3-4CFB-A40C-A8AC6319D16F}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="2" Y="10"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_ready" ID="{35507223-F8B4-44BE-AF82-8585FBFAD9D6}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="2" Y="15"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_select_item" ID="{77482E29-0E64-443C-9AA8-4BF0BAFD4168}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="2" Y="16"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_drill_release" ID="{892DC3AD-A873-4A10-ADBE-2B27F0814B2F}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_bomber_explode" ID="{BEE538C6-444E-4CE9-B03A-DF95979DBCE5}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_horn_fire" ID="{B5B43F64-6814-4F08-8CD5-F6924024E7AE}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_lturret_fire" ID="{587A3DEF-9125-47AB-AFC0-DB9DD2C28621}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="3" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_axe_tension_resume" ID="{0B2DE319-AFCA-4C07-8A3D-228B35B73D56}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="3" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="mx_title" ID="{56FC2D2C-F598-4317-81F7-CDFA11F80818}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="3" Y="9"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="mx_win" ID="{1EB55B18-86A5-458F-80CD-BA6C10C0BCC9}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="3" Y="10"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_reg_wheels" ID="{3C097463-D3C5-48CC-B7CB-1F5C325F4BE7}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="3" Y="12"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_bouncy_wheels" ID="{29B3BA2C-6A80-49BD-95EC-C9E9A70A1C1F}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="3" Y="13"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_static" ID="{16D749EE-A892-4949-BC5E-F644AA911938}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="3" Y="15"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_turn_switch" ID="{97F21F65-24CE-41B4-A1E8-05C65A81127F}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="3" Y="16"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_horn_stinger" ID="{2C000F1F-5A70-464D-B043-4C647971ECC7}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="4" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="mx_menu" ID="{709C2BD9-532B-44CC-8C98-0D17448812B3}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="4" Y="9"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="mx_lose" ID="{C6B6FC76-25D4-4B58-A68F-7F1C168FB33C}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="4" Y="10"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_reg_wheels_stop" ID="{5E59495D-914D-454A-9D34-0104D548C1FF}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="4" Y="12"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_bouncy_wheels_stop" ID="{73584932-01DC-4B7A-8735-7D83AF176D27}" WorkUnitID="{88635159-22B3-4825-9363-8F4395BE2564}"/>
+							<Position X="4" Y="13"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Win" ID="{FAECDEBE-4201-46DB-B17C-40B7F827467E}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

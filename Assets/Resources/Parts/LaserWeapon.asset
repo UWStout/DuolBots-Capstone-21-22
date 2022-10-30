@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6cfa6717e2204f9660786c2d1830e, type: 3}
+  m_Name: LaserWeapon
+  m_EditorClassIdentifier: 
+  m_partName: Laser Pointer
+  m_partType: 2
+  m_partID: {fileID: 11400000, guid: 88e4fb222cfcb8148b16262d0e1e6aff, type: 2}
+  m_weight: 2
+  m_health: 4
+  m_movementSpeed: 0
+  m_modelPrefab: {fileID: 4623436077533565664, guid: 8826a7168cbed0a45b7cc219aeb2d451, type: 3}
+  m_battleLocalPrefab: {fileID: 4204138539045128261, guid: cc3008968a59c6c478c9b85fafc17d9a, type: 3}
+  m_battleNetworkPrefab: {fileID: 8915195523487605908, guid: 5236bdae87fd904428b62de7ec2ab828, type: 3}
+  m_buildUIPrefab: {fileID: 6106198957340389648, guid: 4c1bdfb6b25e2aa4c8ebfc927c05f211, type: 3}
+  m_buildUIPreviewPrefab: {fileID: 2469391626465133422, guid: 0c8d65d2c27a20442b785449fe05db9e, type: 3}
+  m_actionList:
+  - m_action: Rotate
+    m_actionType: 1
+    m_IconType: 1
+    m_hasCooldown: 0
+  - m_action: Raise
+    m_actionType: 1
+    m_IconType: 2
+    m_hasCooldown: 0
+  - m_action: Charge
+    m_actionType: 0
+    m_IconType: 0
+    m_hasCooldown: 0
+  m_partUIData:
+    m_unlockedSprite: {fileID: 2800000, guid: 3b1482d81ff1d9d4f9fb309f48ed8003, type: 3}
+    m_lockedSprite: {fileID: 2800000, guid: 617f6a39e0bf189408bc566af8e3b76d, type: 3}
+    m_animationClip: {fileID: 0}
